@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>QGIS Server - OGC CITE</title>
+</head>
+
+<body>
+    <h2>QGIS Server - OGC CITE</h2>
+    <ul>
+        <li><a href="http://{{ hostname }}/qgisserver?REQUEST=GetCapabilities&SERVICE=WMS&VERSION=1.1.1&MAP=/home/{{ user }}/teamengine_wms_111.qgs">WMS 1.1.1 / GetCapabilities</a></li>
+        <li><a href="http://{{ hostname }}/qgisserver?REQUEST=GetCapabilities&SERVICE=WMS&VERSION=1.3.0&MAP=/home/{{ user }}/teamengine_wms_130.qgs">WMS 1.3.0 / GetCapabilities</a></li>
+        <li><a href="http://{{ hostname }}:8080/teamengine/rest/suites/wms/{{ ets_wms13_version }}/run?capabilities-url=http://{{ hostname }}/qgisserver?REQUEST=GetCapabilities%26SERVICE=WMS%26VERSION=1.3.0%26MAP=/home/{{ user }}/teamengine_wms_130.qgs">WMS 1.3.0 / Run tests</a></li>
+        <li><a href="http://{{ hostname }}/qgisserver?REQUEST=GetCapabilities&SERVICE=WFS&VERSION=1.1.0&MAP=/home/{{ user }}/teamengine_wfs_110.qgs">WFS 1.1.0 / GetCapabilities</a></li>
+        <li><a href="http://{{ hostname }}/qgisserver?REQUEST=GetCapabilities&SERVICE=WFS&VERSION=2.0&MAP=/home/{{ user }}/teamengine_wfs_20.qgs">WFS 2.0 / GetCapabilities</a></li>
+        <li><a href="http://{{ hostname }}:8080/teamengine/rest/suites/wfs20/{{ ets_wfs20_version }}/run?wfs=http://{{ hostname }}/qgisserver?REQUEST=GetCapabilities%26SERVICE=WFS%26VERSION=2.0%26MAP=/home/{{ user }}/teamengine_wfs_20.qgs">WFS 2.0 / Run tests</a></li>
+    </ul>
+</body>
+
+</html>

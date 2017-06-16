@@ -1,0 +1,17 @@
+[Unit]
+Description=QGIS Server for WMS
+After=syslog.target
+
+[Service]
+Environment="LD_LIBRARY_PATH=/usr/local/lib"
+ExecStart=/home/{{ user }}/wrapper_qgisserver.sh
+# Requires systemd version 211 or newer
+#RuntimeDirectory=uwsgi
+Restart=always
+ExecReload=/bin/kill -HUP $MAINPID
+KillSignal=SIGQUIT
+#Type=notify
+#NotifyAccess=all
+
+[Install]
+WantedBy=multi-user.target

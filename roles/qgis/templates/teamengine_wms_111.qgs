@@ -1,0 +1,1698 @@
+<!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
+<qgis projectname="" version="2.99.0-Master">
+  <title></title>
+  <autotransaction active="0"/>
+  <evaluateDefaultValues active="0"/>
+  <layer-tree-group expanded="1" name="" checked="Qt::Checked">
+    <customproperties/>
+    <layer-tree-layer expanded="1" id="Streams20170307110856651" name="Streams" checked="Qt::Checked">
+      <customproperties/>
+    </layer-tree-layer>
+    <layer-tree-layer expanded="1" id="RoadSegments20170307110858881" name="RoadSegments" checked="Qt::Checked">
+      <customproperties/>
+    </layer-tree-layer>
+    <layer-tree-layer expanded="1" id="Ponds20170307110900498" name="Ponds" checked="Qt::Checked">
+      <customproperties/>
+    </layer-tree-layer>
+    <layer-tree-layer expanded="1" id="NamedPlaces20170307110900976" name="NamedPlaces" checked="Qt::Checked">
+      <customproperties/>
+    </layer-tree-layer>
+    <layer-tree-layer expanded="1" id="MapNeatline20170307110901420" name="MapNeatline" checked="Qt::Checked">
+      <customproperties/>
+    </layer-tree-layer>
+    <layer-tree-layer expanded="1" id="BasicPolygons20170307110901960" name="BasicPolygons" checked="Qt::Checked">
+      <customproperties/>
+    </layer-tree-layer>
+    <layer-tree-layer expanded="1" id="Bridges20170307110902428" name="Bridges" checked="Qt::Checked">
+      <customproperties/>
+    </layer-tree-layer>
+    <layer-tree-layer expanded="1" id="BuildingCenters20170307110902879" name="BuildingCenters" checked="Qt::Checked">
+      <customproperties/>
+    </layer-tree-layer>
+    <layer-tree-layer expanded="1" id="Lakes20170307110903377" name="Lakes" checked="Qt::Checked">
+      <customproperties/>
+    </layer-tree-layer>
+    <layer-tree-layer expanded="1" id="Forests20170307110903843" name="Forests" checked="Qt::Checked">
+      <customproperties/>
+    </layer-tree-layer>
+    <layer-tree-layer expanded="1" id="DividedRoutes20170307110904323" name="DividedRoutes" checked="Qt::Checked">
+      <customproperties/>
+    </layer-tree-layer>
+    <layer-tree-layer expanded="1" id="Buildings20170307110904802" name="Buildings" checked="Qt::Checked">
+      <customproperties/>
+    </layer-tree-layer>
+  </layer-tree-group>
+  <snapping-settings mode="2" type="1" tolerance="0" enabled="0" intersection-snapping="0" unit="2">
+    <individual-layer-settings>
+      <layer-setting type="1" units="2" tolerance="0" id="RoadSegments20170307110858881" enabled="0"/>
+      <layer-setting type="1" units="2" tolerance="0" id="BuildingCenters20170307110902879" enabled="0"/>
+      <layer-setting type="1" units="2" tolerance="0" id="Forests20170307110903843" enabled="0"/>
+      <layer-setting type="1" units="2" tolerance="0" id="DividedRoutes20170307110904323" enabled="0"/>
+      <layer-setting type="1" units="2" tolerance="0" id="Ponds20170307110900498" enabled="0"/>
+      <layer-setting type="1" units="2" tolerance="0" id="MapNeatline20170307110901420" enabled="0"/>
+      <layer-setting type="1" units="2" tolerance="0" id="Buildings20170307110904802" enabled="0"/>
+      <layer-setting type="1" units="2" tolerance="0" id="Lakes20170307110903377" enabled="0"/>
+      <layer-setting type="1" units="2" tolerance="0" id="BasicPolygons20170307110901960" enabled="0"/>
+      <layer-setting type="1" units="2" tolerance="0" id="NamedPlaces20170307110900976" enabled="0"/>
+      <layer-setting type="1" units="2" tolerance="0" id="Bridges20170307110902428" enabled="0"/>
+      <layer-setting type="1" units="2" tolerance="0" id="Streams20170307110856651" enabled="0"/>
+    </individual-layer-settings>
+  </snapping-settings>
+  <relations/>
+  <mapcanvas>
+    <units>degrees</units>
+    <extent>
+      <xmin>-2.10000000000000009</xmin>
+      <ymin>-1.17500000000000027</ymin>
+      <xmax>2.10000000000000009</xmax>
+      <ymax>6.17500000000000071</ymax>
+    </extent>
+    <rotation>0</rotation>
+    <destinationsrs>
+      <spatialrefsys>
+        <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+        <srsid>3452</srsid>
+        <srid>4326</srid>
+        <authid>EPSG:4326</authid>
+        <description>WGS 84</description>
+        <projectionacronym>longlat</projectionacronym>
+        <ellipsoidacronym>WGS84</ellipsoidacronym>
+        <geographicflag>true</geographicflag>
+      </spatialrefsys>
+    </destinationsrs>
+    <rendermaptile>0</rendermaptile>
+    <layer_coordinate_transform_info>
+      <layer_coordinate_transform destDatumTransform="-1" destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" layerid="Forests20170307110903843"/>
+      <layer_coordinate_transform destDatumTransform="-1" destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" layerid="Lakes20170307110903377"/>
+      <layer_coordinate_transform destDatumTransform="-1" destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" layerid="Ponds20170307110900498"/>
+      <layer_coordinate_transform destDatumTransform="-1" destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" layerid="DividedRoutes20170307110904323"/>
+      <layer_coordinate_transform destDatumTransform="-1" destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" layerid="RoadSegments20170307110858881"/>
+      <layer_coordinate_transform destDatumTransform="-1" destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" layerid="BasicPolygons20170307110901960"/>
+      <layer_coordinate_transform destDatumTransform="-1" destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" layerid="MapNeatline20170307110901420"/>
+      <layer_coordinate_transform destDatumTransform="-1" destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" layerid="BuildingCenters20170307110902879"/>
+      <layer_coordinate_transform destDatumTransform="-1" destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" layerid="NamedPlaces20170307110900976"/>
+      <layer_coordinate_transform destDatumTransform="-1" destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" layerid="Buildings20170307110904802"/>
+      <layer_coordinate_transform destDatumTransform="-1" destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" layerid="Streams20170307110856651"/>
+      <layer_coordinate_transform destDatumTransform="-1" destAuthId="EPSG:4326" srcAuthId="EPSG:4326" srcDatumTransform="-1" layerid="Bridges20170307110902428"/>
+    </layer_coordinate_transform_info>
+  </mapcanvas>
+  <layer-tree-canvas>
+    <custom-order enabled="0">
+      <item>Streams20170307110856651</item>
+      <item>RoadSegments20170307110858881</item>
+      <item>Ponds20170307110900498</item>
+      <item>NamedPlaces20170307110900976</item>
+      <item>MapNeatline20170307110901420</item>
+      <item>BasicPolygons20170307110901960</item>
+      <item>Bridges20170307110902428</item>
+      <item>BuildingCenters20170307110902879</item>
+      <item>Lakes20170307110903377</item>
+      <item>Forests20170307110903843</item>
+      <item>DividedRoutes20170307110904323</item>
+      <item>Buildings20170307110904802</item>
+    </custom-order>
+  </layer-tree-canvas>
+  <legend updateDrawingOrder="true">
+    <legendlayer showFeatureCount="0" name="Streams" drawingOrder="-1" open="true" checked="Qt::Checked">
+      <filegroup hidden="false" open="true">
+        <legendlayerfile visible="1" isInOverview="0" layerid="Streams20170307110856651"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer showFeatureCount="0" name="RoadSegments" drawingOrder="-1" open="true" checked="Qt::Checked">
+      <filegroup hidden="false" open="true">
+        <legendlayerfile visible="1" isInOverview="0" layerid="RoadSegments20170307110858881"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer showFeatureCount="0" name="Ponds" drawingOrder="-1" open="true" checked="Qt::Checked">
+      <filegroup hidden="false" open="true">
+        <legendlayerfile visible="1" isInOverview="0" layerid="Ponds20170307110900498"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer showFeatureCount="0" name="NamedPlaces" drawingOrder="-1" open="true" checked="Qt::Checked">
+      <filegroup hidden="false" open="true">
+        <legendlayerfile visible="1" isInOverview="0" layerid="NamedPlaces20170307110900976"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer showFeatureCount="0" name="MapNeatline" drawingOrder="-1" open="true" checked="Qt::Checked">
+      <filegroup hidden="false" open="true">
+        <legendlayerfile visible="1" isInOverview="0" layerid="MapNeatline20170307110901420"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer showFeatureCount="0" name="BasicPolygons" drawingOrder="-1" open="true" checked="Qt::Checked">
+      <filegroup hidden="false" open="true">
+        <legendlayerfile visible="1" isInOverview="0" layerid="BasicPolygons20170307110901960"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer showFeatureCount="0" name="Bridges" drawingOrder="-1" open="true" checked="Qt::Checked">
+      <filegroup hidden="false" open="true">
+        <legendlayerfile visible="1" isInOverview="0" layerid="Bridges20170307110902428"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer showFeatureCount="0" name="BuildingCenters" drawingOrder="-1" open="true" checked="Qt::Checked">
+      <filegroup hidden="false" open="true">
+        <legendlayerfile visible="1" isInOverview="0" layerid="BuildingCenters20170307110902879"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer showFeatureCount="0" name="Lakes" drawingOrder="-1" open="true" checked="Qt::Checked">
+      <filegroup hidden="false" open="true">
+        <legendlayerfile visible="1" isInOverview="0" layerid="Lakes20170307110903377"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer showFeatureCount="0" name="Forests" drawingOrder="-1" open="true" checked="Qt::Checked">
+      <filegroup hidden="false" open="true">
+        <legendlayerfile visible="1" isInOverview="0" layerid="Forests20170307110903843"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer showFeatureCount="0" name="DividedRoutes" drawingOrder="-1" open="true" checked="Qt::Checked">
+      <filegroup hidden="false" open="true">
+        <legendlayerfile visible="1" isInOverview="0" layerid="DividedRoutes20170307110904323"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer showFeatureCount="0" name="Buildings" drawingOrder="-1" open="true" checked="Qt::Checked">
+      <filegroup hidden="false" open="true">
+        <legendlayerfile visible="1" isInOverview="0" layerid="Buildings20170307110904802"/>
+      </filegroup>
+    </legendlayer>
+  </legend>
+  <projectlayers>
+    <maplayer type="vector" geometry="Polygon" autoRefreshTime="0" hasScaleBasedVisibilityFlag="0" autoRefreshEnabled="0" simplifyDrawingHints="1" simplifyDrawingTol="1" simplifyAlgorithm="0" maximumScale="1e+8" minimumScale="0" simplifyMaxScale="1" simplifyLocal="1" readOnly="0">
+      <extent>
+        <xmin>-2</xmin>
+        <ymin>-1</ymin>
+        <xmax>2</xmax>
+        <ymax>6</ymax>
+      </extent>
+      <id>BasicPolygons20170307110901960</id>
+      <datasource>/home/{{ user }}/data-wms-1.1.1/shapefile/BasicPolygons.shp</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>BasicPolygons</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+          <srsid>3452</srsid>
+          <srid>4326</srid>
+          <authid>EPSG:4326</authid>
+          <description>WGS 84</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>true</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <provider encoding="UTF-8">ogr</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <expressionfields/>
+      <map-layer-style-manager current="">
+        <map-layer-style name=""/>
+      </map-layer-style-manager>
+      <renderer-v2 type="singleSymbol" symbollevels="0" enableorderby="0" forceraster="0">
+        <symbols>
+          <symbol type="fill" name="0" alpha="1" clip_to_extent="1">
+            <layer locked="0" pass="0" class="SimpleFill" enabled="1">
+              <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="color" v="61,53,221,255"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="0,0,0,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0.26"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="style" v="solid"/>
+              <data_defined_properties type="collection" name=""/>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale/>
+      </renderer-v2>
+      <labeling type="simple"/>
+      <customproperties/>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerTransparency>0</layerTransparency>
+      <fieldConfiguration>
+        <field name="ID">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <annotationform></annotationform>
+      <aliases>
+        <alias index="0" name="" field="ID"/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <defaults>
+        <default expression="" field="ID"/>
+      </defaults>
+      <constraints>
+        <constraint notnull_strength="0" constraints="0" field="ID" exp_strength="0" unique_strength="0"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint desc="" field="ID" exp=""/>
+      </constraintExpressions>
+      <attributeactions/>
+      <attributetableconfig sortExpression="" actionWidgetStyle="dropDown" sortOrder="0">
+        <columns/>
+      </attributetableconfig>
+      <editform></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <widgets/>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <expressionfields/>
+      <previewExpression></previewExpression>
+      <mapTip></mapTip>
+    </maplayer>
+    <maplayer type="vector" geometry="Point" autoRefreshTime="0" hasScaleBasedVisibilityFlag="0" autoRefreshEnabled="0" simplifyDrawingHints="1" simplifyDrawingTol="1" simplifyAlgorithm="0" maximumScale="1e+8" minimumScale="0" simplifyMaxScale="1" simplifyLocal="1" readOnly="0">
+      <extent>
+        <xmin>0.0002</xmin>
+        <ymin>0.0007</ymin>
+        <xmax>0.0002</xmax>
+        <ymax>0.0007</ymax>
+      </extent>
+      <id>Bridges20170307110902428</id>
+      <datasource>/home/{{ user }}/data-wms-1.1.1/shapefile/Bridges.shp</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>Bridges</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+          <srsid>3452</srsid>
+          <srid>4326</srid>
+          <authid>EPSG:4326</authid>
+          <description>WGS 84</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>true</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <provider encoding="UTF-8">ogr</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <expressionfields/>
+      <map-layer-style-manager current="">
+        <map-layer-style name=""/>
+      </map-layer-style-manager>
+      <renderer-v2 type="singleSymbol" symbollevels="0" enableorderby="0" forceraster="0">
+        <symbols>
+          <symbol type="marker" name="0" alpha="1" clip_to_extent="1">
+            <layer locked="0" pass="0" class="SimpleMarker" enabled="1">
+              <prop k="angle" v="0"/>
+              <prop k="color" v="209,60,225,255"/>
+              <prop k="horizontal_anchor_point" v="1"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="name" v="circle"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="0,0,0,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0"/>
+              <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="scale_method" v="diameter"/>
+              <prop k="size" v="2"/>
+              <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="size_unit" v="MM"/>
+              <prop k="vertical_anchor_point" v="1"/>
+              <data_defined_properties type="collection" name=""/>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale/>
+      </renderer-v2>
+      <labeling type="simple"/>
+      <customproperties/>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerTransparency>0</layerTransparency>
+      <fieldConfiguration>
+        <field name="FID">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="NAME">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <annotationform></annotationform>
+      <aliases>
+        <alias index="0" name="" field="FID"/>
+        <alias index="1" name="" field="NAME"/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <defaults>
+        <default expression="" field="FID"/>
+        <default expression="" field="NAME"/>
+      </defaults>
+      <constraints>
+        <constraint notnull_strength="0" constraints="0" field="FID" exp_strength="0" unique_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" field="NAME" exp_strength="0" unique_strength="0"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint desc="" field="FID" exp=""/>
+        <constraint desc="" field="NAME" exp=""/>
+      </constraintExpressions>
+      <attributeactions/>
+      <attributetableconfig sortExpression="" actionWidgetStyle="dropDown" sortOrder="0">
+        <columns/>
+      </attributetableconfig>
+      <editform></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <widgets/>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <expressionfields/>
+      <previewExpression></previewExpression>
+      <mapTip></mapTip>
+    </maplayer>
+    <maplayer type="vector" geometry="Point" autoRefreshTime="0" hasScaleBasedVisibilityFlag="0" autoRefreshEnabled="0" simplifyDrawingHints="1" simplifyDrawingTol="1" simplifyAlgorithm="0" maximumScale="1e+8" minimumScale="0" simplifyMaxScale="1" simplifyLocal="1" readOnly="0">
+      <extent>
+        <xmin>0.001</xmin>
+        <ymin>0.0006</ymin>
+        <xmax>0.0022</xmax>
+        <ymax>0.0009</ymax>
+      </extent>
+      <id>BuildingCenters20170307110902879</id>
+      <datasource>/home/{{ user }}/data-wms-1.1.1/shapefile/BuildingCenters.shp</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>BuildingCenters</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+          <srsid>3452</srsid>
+          <srid>4326</srid>
+          <authid>EPSG:4326</authid>
+          <description>WGS 84</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>true</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <provider encoding="UTF-8">ogr</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <expressionfields/>
+      <map-layer-style-manager current="">
+        <map-layer-style name=""/>
+      </map-layer-style-manager>
+      <renderer-v2 type="singleSymbol" symbollevels="0" enableorderby="0" forceraster="0">
+        <symbols>
+          <symbol type="marker" name="0" alpha="1" clip_to_extent="1">
+            <layer locked="0" pass="0" class="SimpleMarker" enabled="1">
+              <prop k="angle" v="0"/>
+              <prop k="color" v="209,178,86,255"/>
+              <prop k="horizontal_anchor_point" v="1"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="name" v="circle"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="0,0,0,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0"/>
+              <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="scale_method" v="diameter"/>
+              <prop k="size" v="2"/>
+              <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="size_unit" v="MM"/>
+              <prop k="vertical_anchor_point" v="1"/>
+              <data_defined_properties type="collection" name=""/>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale/>
+      </renderer-v2>
+      <labeling type="simple"/>
+      <customproperties/>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerTransparency>0</layerTransparency>
+      <fieldConfiguration>
+        <field name="FID">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="ADDRESS">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <annotationform></annotationform>
+      <aliases>
+        <alias index="0" name="" field="FID"/>
+        <alias index="1" name="" field="ADDRESS"/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <defaults>
+        <default expression="" field="FID"/>
+        <default expression="" field="ADDRESS"/>
+      </defaults>
+      <constraints>
+        <constraint notnull_strength="0" constraints="0" field="FID" exp_strength="0" unique_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" field="ADDRESS" exp_strength="0" unique_strength="0"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint desc="" field="FID" exp=""/>
+        <constraint desc="" field="ADDRESS" exp=""/>
+      </constraintExpressions>
+      <attributeactions/>
+      <attributetableconfig sortExpression="" actionWidgetStyle="dropDown" sortOrder="0">
+        <columns/>
+      </attributetableconfig>
+      <editform></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <widgets/>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <expressionfields/>
+      <previewExpression></previewExpression>
+      <mapTip></mapTip>
+    </maplayer>
+    <maplayer type="vector" geometry="Polygon" autoRefreshTime="0" hasScaleBasedVisibilityFlag="0" autoRefreshEnabled="0" simplifyDrawingHints="1" simplifyDrawingTol="1" simplifyAlgorithm="0" maximumScale="1e+8" minimumScale="0" simplifyMaxScale="1" simplifyLocal="1" readOnly="0">
+      <extent>
+        <xmin>0.0008</xmin>
+        <ymin>0.0005</ymin>
+        <xmax>0.0024</xmax>
+        <ymax>0.001</ymax>
+      </extent>
+      <id>Buildings20170307110904802</id>
+      <datasource>/home/{{ user }}/data-wms-1.1.1/shapefile/Buildings.shp</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>Buildings</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+          <srsid>3452</srsid>
+          <srid>4326</srid>
+          <authid>EPSG:4326</authid>
+          <description>WGS 84</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>true</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <provider encoding="UTF-8">ogr</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <expressionfields/>
+      <map-layer-style-manager current="">
+        <map-layer-style name=""/>
+      </map-layer-style-manager>
+      <renderer-v2 type="singleSymbol" symbollevels="0" enableorderby="0" forceraster="0">
+        <symbols>
+          <symbol type="fill" name="0" alpha="1" clip_to_extent="1">
+            <layer locked="0" pass="0" class="SimpleFill" enabled="1">
+              <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="color" v="103,234,98,255"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="0,0,0,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0.26"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="style" v="solid"/>
+              <data_defined_properties type="collection" name=""/>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale/>
+      </renderer-v2>
+      <labeling type="simple"/>
+      <customproperties/>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerTransparency>0</layerTransparency>
+      <fieldConfiguration>
+        <field name="FID">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="ADDRESS">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <annotationform></annotationform>
+      <aliases>
+        <alias index="0" name="" field="FID"/>
+        <alias index="1" name="" field="ADDRESS"/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <defaults>
+        <default expression="" field="FID"/>
+        <default expression="" field="ADDRESS"/>
+      </defaults>
+      <constraints>
+        <constraint notnull_strength="0" constraints="0" field="FID" exp_strength="0" unique_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" field="ADDRESS" exp_strength="0" unique_strength="0"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint desc="" field="FID" exp=""/>
+        <constraint desc="" field="ADDRESS" exp=""/>
+      </constraintExpressions>
+      <attributeactions/>
+      <attributetableconfig sortExpression="" actionWidgetStyle="dropDown" sortOrder="0">
+        <columns/>
+      </attributetableconfig>
+      <editform></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <widgets/>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <expressionfields/>
+      <previewExpression></previewExpression>
+      <mapTip></mapTip>
+    </maplayer>
+    <maplayer type="vector" geometry="Line" autoRefreshTime="0" hasScaleBasedVisibilityFlag="0" autoRefreshEnabled="0" simplifyDrawingHints="1" simplifyDrawingTol="1" simplifyAlgorithm="0" maximumScale="1e+8" minimumScale="0" simplifyMaxScale="1" simplifyLocal="1" readOnly="0">
+      <extent>
+        <xmin>-0.0032</xmin>
+        <ymin>-0.0024</ymin>
+        <xmax>-0.0026</xmax>
+        <ymax>0.0024</ymax>
+      </extent>
+      <id>DividedRoutes20170307110904323</id>
+      <datasource>/home/{{ user }}/data-wms-1.1.1/shapefile/DividedRoutes.shp</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>DividedRoutes</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+          <srsid>3452</srsid>
+          <srid>4326</srid>
+          <authid>EPSG:4326</authid>
+          <description>WGS 84</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>true</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <provider encoding="UTF-8">ogr</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <expressionfields/>
+      <map-layer-style-manager current="">
+        <map-layer-style name=""/>
+      </map-layer-style-manager>
+      <renderer-v2 type="singleSymbol" symbollevels="0" enableorderby="0" forceraster="0">
+        <symbols>
+          <symbol type="line" name="0" alpha="1" clip_to_extent="1">
+            <layer locked="0" pass="0" class="SimpleLine" enabled="1">
+              <prop k="capstyle" v="square"/>
+              <prop k="customdash" v="5;2"/>
+              <prop k="customdash_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="customdash_unit" v="MM"/>
+              <prop k="draw_inside_polygon" v="0"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="line_color" v="53,72,240,255"/>
+              <prop k="line_style" v="solid"/>
+              <prop k="line_width" v="0.26"/>
+              <prop k="line_width_unit" v="MM"/>
+              <prop k="offset" v="0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="use_custom_dash" v="0"/>
+              <prop k="width_map_unit_scale" v="0,0,0,0,0,0"/>
+              <data_defined_properties type="collection" name=""/>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale/>
+      </renderer-v2>
+      <labeling type="simple"/>
+      <customproperties/>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerTransparency>0</layerTransparency>
+      <fieldConfiguration>
+        <field name="FID">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="NAME">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="NUM_LANES">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <annotationform></annotationform>
+      <aliases>
+        <alias index="0" name="" field="FID"/>
+        <alias index="1" name="" field="NAME"/>
+        <alias index="2" name="" field="NUM_LANES"/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <defaults>
+        <default expression="" field="FID"/>
+        <default expression="" field="NAME"/>
+        <default expression="" field="NUM_LANES"/>
+      </defaults>
+      <constraints>
+        <constraint notnull_strength="0" constraints="0" field="FID" exp_strength="0" unique_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" field="NAME" exp_strength="0" unique_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" field="NUM_LANES" exp_strength="0" unique_strength="0"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint desc="" field="FID" exp=""/>
+        <constraint desc="" field="NAME" exp=""/>
+        <constraint desc="" field="NUM_LANES" exp=""/>
+      </constraintExpressions>
+      <attributeactions/>
+      <attributetableconfig sortExpression="" actionWidgetStyle="dropDown" sortOrder="0">
+        <columns/>
+      </attributetableconfig>
+      <editform></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <widgets/>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <expressionfields/>
+      <previewExpression></previewExpression>
+      <mapTip></mapTip>
+    </maplayer>
+    <maplayer type="vector" geometry="Polygon" autoRefreshTime="0" hasScaleBasedVisibilityFlag="0" autoRefreshEnabled="0" simplifyDrawingHints="1" simplifyDrawingTol="1" simplifyAlgorithm="0" maximumScale="1e+8" minimumScale="0" simplifyMaxScale="1" simplifyLocal="1" readOnly="0">
+      <extent>
+        <xmin>-0.0014</xmin>
+        <ymin>-0.0024</ymin>
+        <xmax>0.0042</xmax>
+        <ymax>0.0018</ymax>
+      </extent>
+      <id>Forests20170307110903843</id>
+      <datasource>/home/{{ user }}/data-wms-1.1.1/shapefile/Forests.shp</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>Forests</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+          <srsid>3452</srsid>
+          <srid>4326</srid>
+          <authid>EPSG:4326</authid>
+          <description>WGS 84</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>true</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <provider encoding="UTF-8">ogr</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <expressionfields/>
+      <map-layer-style-manager current="">
+        <map-layer-style name=""/>
+      </map-layer-style-manager>
+      <renderer-v2 type="singleSymbol" symbollevels="0" enableorderby="0" forceraster="0">
+        <symbols>
+          <symbol type="fill" name="0" alpha="1" clip_to_extent="1">
+            <layer locked="0" pass="0" class="SimpleFill" enabled="1">
+              <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="color" v="77,110,176,255"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="0,0,0,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0.26"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="style" v="solid"/>
+              <data_defined_properties type="collection" name=""/>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale/>
+      </renderer-v2>
+      <labeling type="simple"/>
+      <customproperties/>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerTransparency>0</layerTransparency>
+      <fieldConfiguration>
+        <field name="FID">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="NAME">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <annotationform></annotationform>
+      <aliases>
+        <alias index="0" name="" field="FID"/>
+        <alias index="1" name="" field="NAME"/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <defaults>
+        <default expression="" field="FID"/>
+        <default expression="" field="NAME"/>
+      </defaults>
+      <constraints>
+        <constraint notnull_strength="0" constraints="0" field="FID" exp_strength="0" unique_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" field="NAME" exp_strength="0" unique_strength="0"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint desc="" field="FID" exp=""/>
+        <constraint desc="" field="NAME" exp=""/>
+      </constraintExpressions>
+      <attributeactions/>
+      <attributetableconfig sortExpression="" actionWidgetStyle="dropDown" sortOrder="0">
+        <columns/>
+      </attributetableconfig>
+      <editform></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <widgets/>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <expressionfields/>
+      <previewExpression></previewExpression>
+      <mapTip></mapTip>
+    </maplayer>
+    <maplayer type="vector" geometry="Polygon" autoRefreshTime="0" hasScaleBasedVisibilityFlag="0" autoRefreshEnabled="0" simplifyDrawingHints="1" simplifyDrawingTol="1" simplifyAlgorithm="0" maximumScale="1e+8" minimumScale="0" simplifyMaxScale="1" simplifyLocal="1" readOnly="0">
+      <extent>
+        <xmin>0.0006</xmin>
+        <ymin>-0.0018</ymin>
+        <xmax>0.0031</xmax>
+        <ymax>-0.0001</ymax>
+      </extent>
+      <id>Lakes20170307110903377</id>
+      <datasource>/home/{{ user }}/data-wms-1.1.1/shapefile/Lakes.shp</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>Lakes</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+          <srsid>3452</srsid>
+          <srid>4326</srid>
+          <authid>EPSG:4326</authid>
+          <description>WGS 84</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>true</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <provider encoding="UTF-8">ogr</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <expressionfields/>
+      <map-layer-style-manager current="">
+        <map-layer-style name=""/>
+      </map-layer-style-manager>
+      <renderer-v2 type="singleSymbol" symbollevels="0" enableorderby="0" forceraster="0">
+        <symbols>
+          <symbol type="fill" name="0" alpha="1" clip_to_extent="1">
+            <layer locked="0" pass="0" class="SimpleFill" enabled="1">
+              <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="color" v="8,252,240,255"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="0,0,0,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0.26"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="style" v="solid"/>
+              <data_defined_properties type="collection" name=""/>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale/>
+      </renderer-v2>
+      <labeling type="simple"/>
+      <customproperties/>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerTransparency>0</layerTransparency>
+      <fieldConfiguration>
+        <field name="FID">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="NAME">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <annotationform></annotationform>
+      <aliases>
+        <alias index="0" name="" field="FID"/>
+        <alias index="1" name="" field="NAME"/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <defaults>
+        <default expression="" field="FID"/>
+        <default expression="" field="NAME"/>
+      </defaults>
+      <constraints>
+        <constraint notnull_strength="0" constraints="0" field="FID" exp_strength="0" unique_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" field="NAME" exp_strength="0" unique_strength="0"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint desc="" field="FID" exp=""/>
+        <constraint desc="" field="NAME" exp=""/>
+      </constraintExpressions>
+      <attributeactions/>
+      <attributetableconfig sortExpression="" actionWidgetStyle="dropDown" sortOrder="0">
+        <columns/>
+      </attributetableconfig>
+      <editform></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <widgets/>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <expressionfields/>
+      <previewExpression></previewExpression>
+      <mapTip></mapTip>
+    </maplayer>
+    <maplayer type="vector" geometry="Line" autoRefreshTime="0" hasScaleBasedVisibilityFlag="0" autoRefreshEnabled="0" simplifyDrawingHints="1" simplifyDrawingTol="1" simplifyAlgorithm="0" maximumScale="1e+8" minimumScale="0" simplifyMaxScale="1" simplifyLocal="1" readOnly="0">
+      <extent>
+        <xmin>-0.0042</xmin>
+        <ymin>-0.0024</ymin>
+        <xmax>0.0042</xmax>
+        <ymax>0.0024</ymax>
+      </extent>
+      <id>MapNeatline20170307110901420</id>
+      <datasource>/home/{{ user }}/data-wms-1.1.1/shapefile/MapNeatline.shp</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>MapNeatline</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+          <srsid>3452</srsid>
+          <srid>4326</srid>
+          <authid>EPSG:4326</authid>
+          <description>WGS 84</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>true</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <provider encoding="UTF-8">ogr</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <expressionfields/>
+      <map-layer-style-manager current="">
+        <map-layer-style name=""/>
+      </map-layer-style-manager>
+      <renderer-v2 type="singleSymbol" symbollevels="0" enableorderby="0" forceraster="0">
+        <symbols>
+          <symbol type="line" name="0" alpha="1" clip_to_extent="1">
+            <layer locked="0" pass="0" class="SimpleLine" enabled="1">
+              <prop k="capstyle" v="square"/>
+              <prop k="customdash" v="5;2"/>
+              <prop k="customdash_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="customdash_unit" v="MM"/>
+              <prop k="draw_inside_polygon" v="0"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="line_color" v="247,246,166,255"/>
+              <prop k="line_style" v="solid"/>
+              <prop k="line_width" v="0.26"/>
+              <prop k="line_width_unit" v="MM"/>
+              <prop k="offset" v="0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="use_custom_dash" v="0"/>
+              <prop k="width_map_unit_scale" v="0,0,0,0,0,0"/>
+              <data_defined_properties type="collection" name=""/>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale/>
+      </renderer-v2>
+      <labeling type="simple"/>
+      <customproperties/>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerTransparency>0</layerTransparency>
+      <fieldConfiguration>
+        <field name="FID">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <annotationform></annotationform>
+      <aliases>
+        <alias index="0" name="" field="FID"/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <defaults>
+        <default expression="" field="FID"/>
+      </defaults>
+      <constraints>
+        <constraint notnull_strength="0" constraints="0" field="FID" exp_strength="0" unique_strength="0"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint desc="" field="FID" exp=""/>
+      </constraintExpressions>
+      <attributeactions/>
+      <attributetableconfig sortExpression="" actionWidgetStyle="dropDown" sortOrder="0">
+        <columns/>
+      </attributetableconfig>
+      <editform></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <widgets/>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <expressionfields/>
+      <previewExpression></previewExpression>
+      <mapTip></mapTip>
+    </maplayer>
+    <maplayer type="vector" geometry="Polygon" autoRefreshTime="0" hasScaleBasedVisibilityFlag="0" autoRefreshEnabled="0" simplifyDrawingHints="1" simplifyDrawingTol="1" simplifyAlgorithm="0" maximumScale="1e+8" minimumScale="0" simplifyMaxScale="1" simplifyLocal="1" readOnly="0">
+      <extent>
+        <xmin>0.0014</xmin>
+        <ymin>-0.0011</ymin>
+        <xmax>0.0042</xmax>
+        <ymax>0.0024</ymax>
+      </extent>
+      <id>NamedPlaces20170307110900976</id>
+      <datasource>/home/{{ user }}/data-wms-1.1.1/shapefile/NamedPlaces.shp</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>NamedPlaces</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+          <srsid>3452</srsid>
+          <srid>4326</srid>
+          <authid>EPSG:4326</authid>
+          <description>WGS 84</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>true</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <provider encoding="UTF-8">ogr</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <expressionfields/>
+      <map-layer-style-manager current="">
+        <map-layer-style name=""/>
+      </map-layer-style-manager>
+      <renderer-v2 type="singleSymbol" symbollevels="0" enableorderby="0" forceraster="0">
+        <symbols>
+          <symbol type="fill" name="0" alpha="1" clip_to_extent="1">
+            <layer locked="0" pass="0" class="SimpleFill" enabled="1">
+              <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="color" v="45,139,29,255"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="0,0,0,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0.26"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="style" v="solid"/>
+              <data_defined_properties type="collection" name=""/>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale/>
+      </renderer-v2>
+      <labeling type="simple"/>
+      <customproperties/>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerTransparency>0</layerTransparency>
+      <fieldConfiguration>
+        <field name="FID">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="NAME">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <annotationform></annotationform>
+      <aliases>
+        <alias index="0" name="" field="FID"/>
+        <alias index="1" name="" field="NAME"/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <defaults>
+        <default expression="" field="FID"/>
+        <default expression="" field="NAME"/>
+      </defaults>
+      <constraints>
+        <constraint notnull_strength="0" constraints="0" field="FID" exp_strength="0" unique_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" field="NAME" exp_strength="0" unique_strength="0"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint desc="" field="FID" exp=""/>
+        <constraint desc="" field="NAME" exp=""/>
+      </constraintExpressions>
+      <attributeactions/>
+      <attributetableconfig sortExpression="" actionWidgetStyle="dropDown" sortOrder="0">
+        <columns/>
+      </attributetableconfig>
+      <editform></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <widgets/>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <expressionfields/>
+      <previewExpression></previewExpression>
+      <mapTip></mapTip>
+    </maplayer>
+    <maplayer type="vector" geometry="Polygon" autoRefreshTime="0" hasScaleBasedVisibilityFlag="0" autoRefreshEnabled="0" simplifyDrawingHints="1" simplifyDrawingTol="1" simplifyAlgorithm="0" maximumScale="1e+8" minimumScale="0" simplifyMaxScale="1" simplifyLocal="1" readOnly="0">
+      <extent>
+        <xmin>-0.002</xmin>
+        <ymin>0.0016</ymin>
+        <xmax>-0.0014</xmax>
+        <ymax>0.002</ymax>
+      </extent>
+      <id>Ponds20170307110900498</id>
+      <datasource>/home/{{ user }}/data-wms-1.1.1/shapefile/Ponds.shp</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>Ponds</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+          <srsid>3452</srsid>
+          <srid>4326</srid>
+          <authid>EPSG:4326</authid>
+          <description>WGS 84</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>true</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <provider encoding="UTF-8">ogr</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <expressionfields/>
+      <map-layer-style-manager current="">
+        <map-layer-style name=""/>
+      </map-layer-style-manager>
+      <renderer-v2 type="singleSymbol" symbollevels="0" enableorderby="0" forceraster="0">
+        <symbols>
+          <symbol type="fill" name="0" alpha="1" clip_to_extent="1">
+            <layer locked="0" pass="0" class="SimpleFill" enabled="1">
+              <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="color" v="55,55,206,255"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="0,0,0,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0.26"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="style" v="solid"/>
+              <data_defined_properties type="collection" name=""/>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale/>
+      </renderer-v2>
+      <labeling type="simple"/>
+      <customproperties/>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerTransparency>0</layerTransparency>
+      <fieldConfiguration>
+        <field name="FID">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="NAME">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="TYPE">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <annotationform></annotationform>
+      <aliases>
+        <alias index="0" name="" field="FID"/>
+        <alias index="1" name="" field="NAME"/>
+        <alias index="2" name="" field="TYPE"/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <defaults>
+        <default expression="" field="FID"/>
+        <default expression="" field="NAME"/>
+        <default expression="" field="TYPE"/>
+      </defaults>
+      <constraints>
+        <constraint notnull_strength="0" constraints="0" field="FID" exp_strength="0" unique_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" field="NAME" exp_strength="0" unique_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" field="TYPE" exp_strength="0" unique_strength="0"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint desc="" field="FID" exp=""/>
+        <constraint desc="" field="NAME" exp=""/>
+        <constraint desc="" field="TYPE" exp=""/>
+      </constraintExpressions>
+      <attributeactions/>
+      <attributetableconfig sortExpression="" actionWidgetStyle="dropDown" sortOrder="0">
+        <columns/>
+      </attributetableconfig>
+      <editform></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <widgets/>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <expressionfields/>
+      <previewExpression></previewExpression>
+      <mapTip></mapTip>
+    </maplayer>
+    <maplayer type="vector" geometry="Line" autoRefreshTime="0" hasScaleBasedVisibilityFlag="0" autoRefreshEnabled="0" simplifyDrawingHints="1" simplifyDrawingTol="1" simplifyAlgorithm="0" maximumScale="1e+8" minimumScale="0" simplifyMaxScale="1" simplifyLocal="1" readOnly="0">
+      <extent>
+        <xmin>-0.0042</xmin>
+        <ymin>-0.0024</ymin>
+        <xmax>0.0042</xmax>
+        <ymax>0.0024</ymax>
+      </extent>
+      <id>RoadSegments20170307110858881</id>
+      <datasource>/home/{{ user }}/data-wms-1.1.1/shapefile/RoadSegments.shp</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>RoadSegments</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+          <srsid>3452</srsid>
+          <srid>4326</srid>
+          <authid>EPSG:4326</authid>
+          <description>WGS 84</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>true</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <provider encoding="UTF-8">ogr</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <expressionfields/>
+      <map-layer-style-manager current="">
+        <map-layer-style name=""/>
+      </map-layer-style-manager>
+      <renderer-v2 type="singleSymbol" symbollevels="0" enableorderby="0" forceraster="0">
+        <symbols>
+          <symbol type="line" name="0" alpha="1" clip_to_extent="1">
+            <layer locked="0" pass="0" class="SimpleLine" enabled="1">
+              <prop k="capstyle" v="square"/>
+              <prop k="customdash" v="5;2"/>
+              <prop k="customdash_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="customdash_unit" v="MM"/>
+              <prop k="draw_inside_polygon" v="0"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="line_color" v="182,75,61,255"/>
+              <prop k="line_style" v="solid"/>
+              <prop k="line_width" v="0.26"/>
+              <prop k="line_width_unit" v="MM"/>
+              <prop k="offset" v="0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="use_custom_dash" v="0"/>
+              <prop k="width_map_unit_scale" v="0,0,0,0,0,0"/>
+              <data_defined_properties type="collection" name=""/>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale/>
+      </renderer-v2>
+      <labeling type="simple"/>
+      <customproperties/>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerTransparency>0</layerTransparency>
+      <fieldConfiguration>
+        <field name="FID">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="NAME">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <annotationform></annotationform>
+      <aliases>
+        <alias index="0" name="" field="FID"/>
+        <alias index="1" name="" field="NAME"/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <defaults>
+        <default expression="" field="FID"/>
+        <default expression="" field="NAME"/>
+      </defaults>
+      <constraints>
+        <constraint notnull_strength="0" constraints="0" field="FID" exp_strength="0" unique_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" field="NAME" exp_strength="0" unique_strength="0"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint desc="" field="FID" exp=""/>
+        <constraint desc="" field="NAME" exp=""/>
+      </constraintExpressions>
+      <attributeactions/>
+      <attributetableconfig sortExpression="" actionWidgetStyle="dropDown" sortOrder="0">
+        <columns/>
+      </attributetableconfig>
+      <editform></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <widgets/>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <expressionfields/>
+      <previewExpression></previewExpression>
+      <mapTip></mapTip>
+    </maplayer>
+    <maplayer type="vector" geometry="Line" autoRefreshTime="0" hasScaleBasedVisibilityFlag="0" autoRefreshEnabled="0" simplifyDrawingHints="1" simplifyDrawingTol="1" simplifyAlgorithm="0" maximumScale="1e+8" minimumScale="0" simplifyMaxScale="1" simplifyLocal="1" readOnly="0">
+      <extent>
+        <xmin>-0.0004</xmin>
+        <ymin>-0.0024</ymin>
+        <xmax>0.0036</xmax>
+        <ymax>0.0024</ymax>
+      </extent>
+      <id>Streams20170307110856651</id>
+      <datasource>/home/{{ user }}/data-wms-1.1.1/shapefile/Streams.shp</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>Streams</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+          <srsid>3452</srsid>
+          <srid>4326</srid>
+          <authid>EPSG:4326</authid>
+          <description>WGS 84</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>true</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <provider encoding="UTF-8">ogr</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <expressionfields/>
+      <map-layer-style-manager current="">
+        <map-layer-style name=""/>
+      </map-layer-style-manager>
+      <renderer-v2 type="singleSymbol" symbollevels="0" enableorderby="0" forceraster="0">
+        <symbols>
+          <symbol type="line" name="0" alpha="1" clip_to_extent="1">
+            <layer locked="0" pass="0" class="SimpleLine" enabled="1">
+              <prop k="capstyle" v="square"/>
+              <prop k="customdash" v="5;2"/>
+              <prop k="customdash_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="customdash_unit" v="MM"/>
+              <prop k="draw_inside_polygon" v="0"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="line_color" v="146,18,165,255"/>
+              <prop k="line_style" v="solid"/>
+              <prop k="line_width" v="0.26"/>
+              <prop k="line_width_unit" v="MM"/>
+              <prop k="offset" v="0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="use_custom_dash" v="0"/>
+              <prop k="width_map_unit_scale" v="0,0,0,0,0,0"/>
+              <data_defined_properties type="collection" name=""/>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale/>
+      </renderer-v2>
+      <labeling type="simple"/>
+      <customproperties/>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerTransparency>0</layerTransparency>
+      <fieldConfiguration>
+        <field name="FID">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="NAME">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <annotationform></annotationform>
+      <aliases>
+        <alias index="0" name="" field="FID"/>
+        <alias index="1" name="" field="NAME"/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <defaults>
+        <default expression="" field="FID"/>
+        <default expression="" field="NAME"/>
+      </defaults>
+      <constraints>
+        <constraint notnull_strength="0" constraints="0" field="FID" exp_strength="0" unique_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" field="NAME" exp_strength="0" unique_strength="0"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint desc="" field="FID" exp=""/>
+        <constraint desc="" field="NAME" exp=""/>
+      </constraintExpressions>
+      <attributeactions>
+        <defaultAction key="Canvas" value="{00000000-0000-0000-0000-000000000000}"/>
+      </attributeactions>
+      <attributetableconfig sortExpression="" actionWidgetStyle="dropDown" sortOrder="0">
+        <columns/>
+      </attributetableconfig>
+      <editform></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <widgets/>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <expressionfields/>
+      <previewExpression></previewExpression>
+      <mapTip></mapTip>
+    </maplayer>
+  </projectlayers>
+  <properties>
+    <WMSContactPerson type="QString"></WMSContactPerson>
+    <WMSContactMail type="QString"></WMSContactMail>
+    <WMSKeywordList type="QStringList">
+      <value></value>
+    </WMSKeywordList>
+    <WMSUrl type="QString"></WMSUrl>
+    <WMSImageQuality type="int">90</WMSImageQuality>
+    <WCSUrl type="QString"></WCSUrl>
+    <Identify>
+      <disabledLayers type="QStringList"/>
+    </Identify>
+    <DefaultStyles>
+      <Fill type="QString"></Fill>
+      <RandomColors type="bool">true</RandomColors>
+      <Marker type="QString"></Marker>
+      <ColorRamp type="QString"></ColorRamp>
+      <AlphaInt type="int">255</AlphaInt>
+      <Line type="QString"></Line>
+    </DefaultStyles>
+    <WMSFees type="QString">conditions unknown</WMSFees>
+    <WMSSegmentizeFeatureInfoGeometry type="bool">false</WMSSegmentizeFeatureInfoGeometry>
+    <WMSUseLayerIDs type="bool">false</WMSUseLayerIDs>
+    <PositionPrecision>
+      <DecimalPlaces type="int">2</DecimalPlaces>
+      <Automatic type="bool">true</Automatic>
+      <DegreeFormat type="QString">MU</DegreeFormat>
+    </PositionPrecision>
+    <WMSContactOrganization type="QString"></WMSContactOrganization>
+    <WFSUrl type="QString"></WFSUrl>
+    <WMSServiceTitle type="QString"></WMSServiceTitle>
+    <WMSRequestDefinedDataSources type="bool">false</WMSRequestDefinedDataSources>
+    <WMSPrecision type="QString">8</WMSPrecision>
+    <SpatialRefSys>
+      <ProjectCRSID type="int">3452</ProjectCRSID>
+      <ProjectCrs type="QString">EPSG:4326</ProjectCrs>
+      <ProjectCRSProj4String type="QString">+proj=longlat +datum=WGS84 +no_defs</ProjectCRSProj4String>
+    </SpatialRefSys>
+    <WMSAccessConstraints type="QString">None</WMSAccessConstraints>
+    <WFSLayersPrecision>
+      <Forests20170307110903843 type="int">8</Forests20170307110903843>
+      <Lakes20170307110903377 type="int">8</Lakes20170307110903377>
+      <Ponds20170307110900498 type="int">8</Ponds20170307110900498>
+      <DividedRoutes20170307110904323 type="int">8</DividedRoutes20170307110904323>
+      <RoadSegments20170307110858881 type="int">8</RoadSegments20170307110858881>
+      <BasicPolygons20170307110901960 type="int">8</BasicPolygons20170307110901960>
+      <MapNeatline20170307110901420 type="int">8</MapNeatline20170307110901420>
+      <BuildingCenters20170307110902879 type="int">8</BuildingCenters20170307110902879>
+      <Buildings20170307110904802 type="int">8</Buildings20170307110904802>
+      <NamedPlaces20170307110900976 type="int">8</NamedPlaces20170307110900976>
+      <Streams20170307110856651 type="int">8</Streams20170307110856651>
+      <Bridges20170307110902428 type="int">8</Bridges20170307110902428>
+    </WFSLayersPrecision>
+    <WMSContactPhone type="QString"></WMSContactPhone>
+    <Paths>
+      <Absolute type="bool">false</Absolute>
+    </Paths>
+    <Measurement>
+      <AreaUnits type="QString">m2</AreaUnits>
+      <DistanceUnits type="QString">meters</DistanceUnits>
+    </Measurement>
+    <WFSLayers type="QStringList">
+      <value>BasicPolygons20170307110901960</value>
+      <value>Bridges20170307110902428</value>
+      <value>BuildingCenters20170307110902879</value>
+      <value>Buildings20170307110904802</value>
+      <value>DividedRoutes20170307110904323</value>
+      <value>Forests20170307110903843</value>
+      <value>Lakes20170307110903377</value>
+      <value>MapNeatline20170307110901420</value>
+      <value>NamedPlaces20170307110900976</value>
+      <value>Ponds20170307110900498</value>
+      <value>RoadSegments20170307110858881</value>
+      <value>Streams20170307110856651</value>
+    </WFSLayers>
+    <Gui>
+      <SelectionColorBluePart type="int">0</SelectionColorBluePart>
+      <SelectionColorAlphaPart type="int">255</SelectionColorAlphaPart>
+      <CanvasColorRedPart type="int">255</CanvasColorRedPart>
+      <SelectionColorRedPart type="int">255</SelectionColorRedPart>
+      <SelectionColorGreenPart type="int">255</SelectionColorGreenPart>
+      <CanvasColorGreenPart type="int">255</CanvasColorGreenPart>
+      <CanvasColorBluePart type="int">255</CanvasColorBluePart>
+    </Gui>
+    <WFSTLayers>
+      <Update type="QStringList"/>
+      <Delete type="QStringList"/>
+      <Insert type="QStringList"/>
+    </WFSTLayers>
+    <WCSLayers type="QStringList"/>
+    <WMSServiceCapabilities type="bool">true</WMSServiceCapabilities>
+    <WMSServiceAbstract type="QString"></WMSServiceAbstract>
+    <WMSOnlineResource type="QString"></WMSOnlineResource>
+    <WMSContactPosition type="QString"></WMSContactPosition>
+    <Measure>
+      <Ellipsoid type="QString">NONE</Ellipsoid>
+    </Measure>
+    <Legend>
+      <filterByMap type="bool">false</filterByMap>
+    </Legend>
+    <Macros>
+      <pythonCode type="QString"></pythonCode>
+    </Macros>
+    <WMSAddWktGeometry type="bool">false</WMSAddWktGeometry>
+  </properties>
+  <visibility-presets/>
+  <Annotations/>
+</qgis>

@@ -1,0 +1,5 @@
+- name: restart teamengine
+  service: name=teamengine state=restarted
+
+- name: reload teamengine
+  service: name=teamengine state=reloaded

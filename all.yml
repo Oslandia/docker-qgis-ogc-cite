@@ -1,0 +1,34 @@
+- name: bring up a docker container named oslandia-qgis-server-ogc-cite
+  hosts: localhost
+  tasks:
+    - name: print ansible_connection
+      debug:
+        msg: '{{ ansible_connection }}'
+    - name: create container
+      docker_container:
+        name: oslandia-qgis-server-ogc-cite
+        image: oslandia/ubuntu-systemd:xenial
+        volumes:
+          - /sys/fs/cgroup:/sys/fs/cgroup:ro
+        capabilities:
+          - SYS_ADMIN
+    - name: add container to inventory
+      add_host:
+        name: oslandia-qgis-server-ogc-cite
+        ansible_connection: docker
+
+- hosts: oslandia-qgis-server-ogc-cite
+  vars_files:
+    - vars_all.yml
+  pre_tasks:
+    - name: ensure sudo is installed
+      apt: name=sudo
+  roles:
+    - admin
+    - nginx
+    - teamengine
+    - ets
+    - qgis
+  post_tasks:
+    - debug:
+        msg: "Docker IP : {{ hostvars['oslandia-qgis-server-ogc-cite'].ansible_default_ipv4.address }}"

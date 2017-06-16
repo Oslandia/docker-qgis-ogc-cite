@@ -1,0 +1,20 @@
+- name: installing nginx
+  apt: name=nginx
+  become: true
+
+- name: installing spawn fcgi
+  apt: name=spawn-fcgi
+  become: true
+
+- name: remove default nginx config
+  file: path=/etc/nginx/sites-enabled/default state=absent
+  become: true
+
+- name: copy nginx config
+  template: src=qgisserver.nginx dest=/etc/nginx/sites-enabled/qgisserver
+  notify: restart nginx
+  become: true
+
+- name: enable service
+  service: name=nginx state=started enabled=yes
+  become: true

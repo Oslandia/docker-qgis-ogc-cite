@@ -1,0 +1,15 @@
+[Unit]
+Description=Teamengine server
+After=syslog.target
+
+[Service]
+ExecStart=/usr/share/tomcat7/bin/startup.sh
+# Requires systemd version 211 or newer
+# RuntimeDirectory=
+Restart=always
+ExecReload=/bin/kill -HUP `cat /srv/tomcat/teamengine/temp/teamengine.pid`
+KillSignal=SIGQUIT
+Type=forking
+
+[Install]
+WantedBy=multi-user.target

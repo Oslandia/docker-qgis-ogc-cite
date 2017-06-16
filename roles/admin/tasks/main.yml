@@ -1,0 +1,23 @@
+- name: add repository for openjdk
+  apt_repository:
+    repo: 'ppa:openjdk-r/ppa'
+
+- name: add repository for ubuntugis (necessary for gdal 2.x)
+  apt_repository:
+    repo: 'ppa:ubuntugis/ppa'
+
+- name: install tools
+  apt:
+    update_cache: yes
+    name: '{{ item }}'
+  with_items:
+    - vim
+    - tree
+    - git
+
+- name: create user
+  user:
+    name: '{{ user }}'
+
+# recall setup task to avoid 'ansible_default_ipv4' is undefined
+- action: setup

@@ -1,0 +1,100 @@
+- name: install deps
+  apt:
+    name: '{{ item }}'
+  with_items:
+    - maven
+    - openjdk-8-jdk
+    - unzip
+    - tomcat7
+
+- name: clone teamengine repository
+  git:
+    repo: https://github.com/opengeospatial/teamengine
+    dest: '/home/{{ user }}/teamengine'
+    version: '{{ teamengine_version }}'
+  become: yes
+  become_user: '{{ user }}'
+  register: pull_teamengine
+
+- name: build teamengine
+  command: mvn install
+  args:
+    chdir: /home/{{ user }}/teamengine
+  become: yes
+  become_user: '{{ user }}'
+  when: pull_teamengine.changed
+
+- name: create teamgine directory (TE_BASE)
+  file:
+    name: /srv/teamengine
+    state: directory
+
+- name: set up instance directory for teamengine
+  unarchive:
+    src: /home/{{ user }}/teamengine/teamengine-console/target/teamengine-console-{{ teamengine_version }}-base.zip
+    dest: /srv/teamengine
+    remote_src: true
+
+# CATALINA_HOME: /usr/share/tomcat7
+# CATALINA_BASE: /srv/tomcat/teamengine/
+- name: create some missing directories
+  file:
+    name: /usr/share/tomcat7/{{ item }}
+    state: directory
+  with_items:
+    - common
+    - common/classes
+    - server
+    - server/classes
+    - shared
+    - shared/classes
+
+- name: create tomcat directory
+  file:
+    name: /srv/tomcat/teamengine/{{ item }}
+    state: directory
+  with_items:
+    - lib
+    - logs
+    - temp
+    - webapps
+    - work
+
+- name: install teamengine libs in tomcat
+  unarchive:
+    src: /home/{{ user }}/teamengine/teamengine-web/target/teamengine-common-libs.zip
+    dest: /srv/tomcat/teamengine/lib
+    remote_src: true
+
+- name: copy server configuration into tomcat instance
+  file:
+    src: /etc/tomcat7/
+    dest: /srv/tomcat/teamengine/conf
+    remote_src: true
+    state: link
+
+- name: copy setenv shell script for tomcat
+  copy:
+    src: setenv.sh
+    dest: /usr/share/tomcat7/bin/
+    mode: 'a+rwx'
+
+- name: deploy teamengine war in tomcat
+  copy:
+    src: /home/{{ user }}/teamengine/teamengine-web/target/teamengine.war
+    dest: /srv/tomcat/teamengine/webapps
+    remote_src: true
+
+- name: copy systemd service file for teamengine tomcat instance
+  copy:
+    src: teamengine.service
+    dest: /etc/systemd/system/teamengine.service
+  notify:
+    - reload systemd
+    - restart teamengine
+
+- name: enable teamengine server
+  service:
+    name: teamengine
+    state: started
+    enabled: yes

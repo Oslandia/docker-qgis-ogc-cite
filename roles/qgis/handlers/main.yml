@@ -1,0 +1,5 @@
+- name: restart qgisserver
+  service: name=qgisserver state=restarted
+
+- name: reload qgisserver
+  service: name=qgisserver state=reloaded

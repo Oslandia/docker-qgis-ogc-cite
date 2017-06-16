@@ -1,0 +1,118 @@
+- name: install deps
+  apt:
+    name: '{{ item }}'
+  with_items:
+    - cmake
+    - g++
+    - xvfb
+    - flex
+    - bison
+    - libgeos-dev
+    - libgdal-dev
+    - libspatialindex-dev
+    - qtbase5-dev
+    - libqt5svg5-dev
+    - qtpositioning5-dev
+    - libqt5webkit5-dev
+    - qttools5-dev
+    - qtscript5-dev
+    - libqca-qt5-2-dev
+    - python3-pyqt5
+    - python3-pyqt5.qsci
+    - pyqt5-dev-tools
+    - libqt5xmlpatterns5-dev
+    - libqwt-qt5-dev
+    - libqt5scintilla2-dev
+    - qt5keychain-dev
+    - libfcgi-dev
+    - libgsl-dev
+    - libpython3.5-dev
+    - qt5-default
+    - qttools5-dev-tools
+    - sip-dev
+    - pyqt5-dev
+    - python3-sip-dev
+    - python3-pyqt5.qtsql
+    - python3-six
+
+- name: clone qgis repository
+  git:
+    repo: '{{ qgis_repo }}'
+    dest: '/home/{{ user }}/qgis'
+    version: '{{ qgis_version }}'
+  become: yes
+  become_user: '{{ user }}'
+  register: pull_qgis
+
+- name: create build directory
+  file:
+    name: '/home/{{ user }}/qgis/build'
+    state: directory
+  become: yes
+  become_user: '{{ user }}'
+
+- name: compiling qgis with qgis-server
+  shell: '{{ item }}'
+  args:
+    chdir: /home/{{ user }}/qgis/build
+  with_items:
+    - 'cmake .. -DWITH_SERVER=ON'
+    - 'make -j2'
+  become: yes
+  become_user: '{{ user }}'
+  when: pull_qgis.changed
+
+- name: installing qgis
+  shell: make install
+  args:
+    chdir: /home/{{ user }}/qgis/build
+
+- name: install qgisserver wrapper
+  template:
+    dest: '/home/{{ user }}'
+    src: wrapper_qgisserver.sh
+    mode: 0755
+
+- name: install systemd service for qgis
+  template:
+    src: qgisserver.service
+    dest: /etc/systemd/system/qgisserver.service
+  notify:
+    - reload systemd
+    - restart qgisserver
+    - reload nginx
+
+- name: enable qgisserver
+  service: name=qgisserver state=started enabled=yes
+
+# ----------------------------------------------------------------------------
+# only when teamengine/ets are deployed too
+# ----------------------------------------------------------------------------
+- name: create www directory
+  file:
+    name: '/var/www/html/ogccite'
+    state: directory
+  become: yes
+  when: qgis_ets_projects
+
+- name: copy html file to run tests
+  template:
+    src: index.html
+    dest: /var/www/html/ogccite/index.html
+  become: yes
+  when: qgis_ets_projects
+
+- name: prepare qgis project with ets data
+  template:
+    src: '{{ item }}'
+    dest: /home/{{ user }}/{{ item }}
+  with_items:
+    - teamengine_wms_111.qgs
+    - teamengine_wfs_110.qgs
+    - teamengine_wfs_20.qgs
+  when: qgis_ets_projects
+
+- name: prepare wms 130 qgis project with ets data
+  copy:
+    src: teamengine_wms_130.qgs
+    dest: /home/{{ user }}/teamengine_wms_130.qgs
