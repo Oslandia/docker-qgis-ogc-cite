@@ -24,6 +24,7 @@
     - libqwt-qt5-dev
     - libqt5scintilla2-dev
     - qt5keychain-dev
+    - libzip-dev
     - libfcgi-dev
     - libgsl-dev
     - libpython3.5-dev
