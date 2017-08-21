@@ -17,7 +17,7 @@
  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
  xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 
-  <ctl:test name="getmap:main">
+  <ctl:test name="getmap:getmap">
     <ctl:param name="exhaustive"/>
     <ctl:context>WMS_Capabilities element</ctl:context>
     <ctl:assertion>The GetMap request behaves properly.</ctl:assertion>
@@ -31,15 +31,15 @@
           <ctl:call-test name="getmap:bbox"/>
           <ctl:call-test name="getmap:crs">
             <ctl:with-param name="exhaustive" select="$exhaustive"/>
-          </ctl:call-test> 
+          </ctl:call-test>
           <ctl:call-test name="getmap:exceptions"/>
-          <ctl:call-test name="getmap:format"/> 
+          <ctl:call-test name="getmap:format"/>
           <ctl:call-test name="getmap:layers">
             <ctl:with-param name="exhaustive" select="$exhaustive"/>
-          </ctl:call-test> 
+          </ctl:call-test>
           <ctl:call-test name="getmap:styles"/>
-          <ctl:call-test name="getmap:transparent"/><!-- OK UNTIL HERE -->
-	  <ctl:call-test name="getmap:width-and-height"/> 
+          <ctl:call-test name="getmap:transparent"/>
+          <ctl:call-test name="getmap:width-and-height"/>
         </xsl:otherwise>
       </xsl:choose>
     </ctl:code>
@@ -53,12 +53,12 @@
       <ctl:call-test name="getmap:bbox-inherited"/>
       <ctl:call-test name="getmap:bbox-below-scale"/>
       <ctl:call-test name="getmap:bbox-above-scale"/>
-     <!-- <ctl:call-test name="getmap:bbox-minx-gt-maxx"/> --> <!-- FAIL -->
+      <!-- FAIL <ctl:call-test name="getmap:bbox-minx-gt-maxx"/> -->
       <ctl:call-test name="getmap:bbox-minx-eq-maxx"/>
-  <!--    <ctl:call-test name="getmap:bbox-miny-gt-maxy"/> --> <!-- FAIL -->
+      <!-- FAIL <ctl:call-test name="getmap:bbox-miny-gt-maxy"/> -->
       <ctl:call-test name="getmap:bbox-miny-eq-maxy"/>
       <ctl:call-test name="getmap:bbox-no-overlap"/>
-      <ctl:call-test name="getmap:bbox-outside-crs"/> 
+      <ctl:call-test name="getmap:bbox-outside-crs"/>
     </ctl:code>
   </ctl:test>
 
@@ -150,17 +150,17 @@
     <ctl:context>WMS_Capabilities element</ctl:context>
     <ctl:assertion>The STYLES parameter behaves properly.</ctl:assertion>
     <ctl:code>
-      <ctl:call-test name="getmap:styles-direct"/> 
+      <ctl:call-test name="getmap:styles-direct"/>
       <ctl:call-test name="getmap:styles-inherited"/>
       <ctl:call-test name="getmap:two-styles"/>
       <ctl:call-test name="getmap:three-styles"/>
-    <!-- FAIL  <ctl:call-test name="getmap:invalid-style"/> -->
+      <!-- FAIL <ctl:call-test name="getmap:invalid-style"/> -->
       <ctl:call-test name="getmap:styles-default-single-layer"/>
       <ctl:call-test name="getmap:styles-default-multiple-layers"/>
       <ctl:call-test name="getmap:styles-default-commas"/>
       <ctl:call-test name="getmap:styles-some-default"/>
-   <!-- FAIL   <ctl:call-test name="getmap:first-style-invalid"/> -->
-   <!-- FAIL   <ctl:call-test name="getmap:second-style-invalid"/> -->
+      <!-- FAIL <ctl:call-test name="getmap:first-style-invalid"/> -->
+      <!-- FAIL <ctl:call-test name="getmap:second-style-invalid"/> -->
       <xsl:variable name="capabilities" select="."/>
 
       <ctl:for-each select="wms:Capability//wms:Layer/wms:Style[not(wms:Name=../preceding::wms:Layer/wms:Style/wms:Name) and not(wms:Name=../ancestor::wms:Layer/wms:Style/wms:Name)]/wms:Name">
@@ -168,8 +168,8 @@
           <ctl:with-param name="capabilities" select="$capabilities"/>
           <ctl:with-param name="style" select="string(.)" label="each style" label-expr="concat('style &quot;', ., '&quot;')"/>
         </ctl:call-test>
-      </ctl:for-each> 
-    </ctl:code><!-- OK!! -->
+      </ctl:for-each>
+    </ctl:code>
   </ctl:test>
 
   <ctl:test name="getmap:transparent">
@@ -1917,7 +1917,7 @@
     <ctl:comment/>
     <ctl:link title="WMS 1.3.0 section 7.2.4.6.5">http://cite.opengeospatial.org/OGCTestData/wms/1.3.0/spec/wms1_3.html#wmsops.getmap.params.styles</ctl:link>
     <ctl:code>
-      <xsl:variable name="style" 
+      <xsl:variable name="style"
       select="string(wms:Capability/descendant::wms:Layer[wms:Name][1]/ancestor-or-self::wms:Layer[1]/wms:Style[1]/wms:Name)"/>
       <xsl:choose>
         <xsl:when test="$style = ''">
@@ -1990,7 +1990,7 @@
     <ctl:comment/>
     <ctl:link title="WMS 1.3.0 section 7.2.4.6.5">http://cite.opengeospatial.org/OGCTestData/wms/1.3.0/spec/wms1_3.html#wmsops.getmap.params.styles</ctl:link>
     <ctl:code>
-      <xsl:variable name="style" 
+      <xsl:variable name="style"
       select="string(wms:Capability/descendant::wms:Layer[wms:Name][1]/ancestor-or-self::wms:Layer[1]/wms:Style[1]/wms:Name)"/>
       <xsl:choose>
         <xsl:when test="$style = ''">
@@ -3062,12 +3062,12 @@
       </xsl:variable>
       <xsl:variable name="layer-name">
         <xsl:value-of select="functions:encode($layer-info/LayerInfo/@name)"/>
-      </xsl:variable>         
-      <xsl:variable name="size">            
+      </xsl:variable>
+      <xsl:variable name="size">
         <xsl:value-of select="wms:Service/wms:LayerLimit"/>
-      </xsl:variable>   
+      </xsl:variable>
 
-      <xsl:if test="not($size='')">            
+      <xsl:if test="not($size='')">
         <xsl:variable name="layer-list">
           <xsl:value-of select="functions:encode($layer-name)"/>
           <xsl:for-each select="2 to $size">
@@ -3110,7 +3110,7 @@
                 <parsers:NullParser/>
               </parsers:parse>
             </parsers:HTTPParser>
-          </ctl:request>               
+          </ctl:request>
         </xsl:variable>
 
         <xsl:if test="functions:mime-match($response/response/headers/header[functions:to-lowercase(@name) = 'content-type'], $image-format) = 'false'">
