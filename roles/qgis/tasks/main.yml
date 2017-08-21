@@ -58,7 +58,7 @@
     chdir: /home/{{ user }}/qgis/build
   with_items:
     - 'cmake .. -DWITH_SERVER=ON'
-    - 'make -j2'
+    - 'make -j8'
   become: yes
   become_user: '{{ user }}'
   when: pull_qgis.changed
