@@ -143,17 +143,6 @@
     dest: /home/{{ user }}/data-wms-1.3.0
     remote_src: true
 
-- name: copy orignal getmap.xml file
-  copy:
-    remote_src: true
-    src: /srv/teamengine/scripts/wms/1.3.0/ctl/getmap.xml
-    dest: /srv/teamengine/scripts/wms/1.3.0/ctl/getmap_original.xml
-
-- name: copy getmap.xml ctl script with failing tests deactivated
-  copy:
-    src: getmap.xml
-    dest: /srv/teamengine/scripts/wms/1.3.0/ctl/getmap.xml
-
 # ----------------------------------------------------------------------------
 # WFS 2.0
 # ----------------------------------------------------------------------------
