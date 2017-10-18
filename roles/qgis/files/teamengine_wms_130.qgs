@@ -1,98 +1,53 @@
 <!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
-<qgis projectname="" version="2.99.0-Master">
+<qgis version="2.99.0-Master" projectname="">
   <title></title>
   <autotransaction active="0"/>
   <evaluateDefaultValues active="0"/>
-  <layer-tree-group expanded="1" checked="Qt::Checked" name="">
+  <trust active="0"/>
+  <layer-tree-group>
     <customproperties/>
-    <layer-tree-layer expanded="1" checked="Qt::Checked" id="Streams20170301162236949" name="cite:Streams">
+    <layer-tree-layer name="cite:Streams" providerKey="ogr" checked="Qt::Checked" source="/home/blottiere/devel/packages/docker-qgis-ogc-cite/roles/qgis/files/data-wms-1.3.0/shapefile/Streams.shp" id="Streams20170301162236949" expanded="1">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer expanded="1" checked="Qt::Checked" id="RoadSegments20170301162236975" name="cite:RoadSegments">
+    <layer-tree-layer name="cite:RoadSegments" providerKey="ogr" checked="Qt::Checked" source="/home/blottiere/devel/packages/docker-qgis-ogc-cite/roles/qgis/files/data-wms-1.3.0/shapefile/RoadSegments.shp" id="RoadSegments20170301162236975" expanded="1">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer expanded="1" checked="Qt::Checked" id="Ponds20170301162236982" name="cite:Ponds">
+    <layer-tree-layer name="cite:Ponds" providerKey="ogr" checked="Qt::Checked" source="/home/blottiere/devel/packages/docker-qgis-ogc-cite/roles/qgis/files/data-wms-1.3.0/shapefile/Ponds.shp" id="Ponds20170301162236982" expanded="1">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer expanded="1" checked="Qt::Checked" id="NamedPlaces20170301162236984" name="cite:NamedPlaces">
+    <layer-tree-layer name="cite:NamedPlaces" providerKey="ogr" checked="Qt::Checked" source="/home/blottiere/devel/packages/docker-qgis-ogc-cite/roles/qgis/files/data-wms-1.3.0/shapefile/NamedPlaces.shp" id="NamedPlaces20170301162236984" expanded="1">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer expanded="1" checked="Qt::Checked" id="MapNeatline20170301162236991" name="cite:MapNeatline">
+    <layer-tree-layer name="cite:MapNeatline" providerKey="ogr" checked="Qt::Checked" source="/home/blottiere/devel/packages/docker-qgis-ogc-cite/roles/qgis/files/data-wms-1.3.0/shapefile/MapNeatline.shp" id="MapNeatline20170301162236991" expanded="1">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer expanded="1" checked="Qt::Checked" id="lakesWithElevation20170301162236998" name="cite:LakesWithElevation">
+    <layer-tree-layer name="cite:LakesWithElevation" providerKey="ogr" checked="Qt::Checked" source="/home/blottiere/devel/packages/docker-qgis-ogc-cite/roles/qgis/files/data-wms-1.3.0/shapefile/lakesWithElevation.shp" id="lakesWithElevation20170301162236998" expanded="1">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer expanded="1" checked="Qt::Checked" id="Lakes20170301162237004" name="cite:Lakes">
+    <layer-tree-layer name="cite:Lakes" providerKey="ogr" checked="Qt::Checked" source="/home/blottiere/devel/packages/docker-qgis-ogc-cite/roles/qgis/files/data-wms-1.3.0/shapefile/Lakes.shp" id="Lakes20170301162237004" expanded="1">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer expanded="1" checked="Qt::Checked" id="Forests20170301162237014" name="cite:Forests">
+    <layer-tree-layer name="cite:Forests" providerKey="ogr" checked="Qt::Checked" source="/home/blottiere/devel/packages/docker-qgis-ogc-cite/roles/qgis/files/data-wms-1.3.0/shapefile/Forests.shp" id="Forests20170301162237014" expanded="1">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer expanded="1" checked="Qt::Checked" id="DividedRoutes20170301162237015" name="cite:DividedRoutes">
+    <layer-tree-layer name="cite:DividedRoutes" providerKey="ogr" checked="Qt::Checked" source="/home/blottiere/devel/packages/docker-qgis-ogc-cite/roles/qgis/files/data-wms-1.3.0/shapefile/DividedRoutes.shp" id="DividedRoutes20170301162237015" expanded="1">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer expanded="1" checked="Qt::Checked" id="Buildings20170301162237024" name="cite:Buildings">
+    <layer-tree-layer name="cite:Buildings" providerKey="ogr" checked="Qt::Checked" source="/home/blottiere/devel/packages/docker-qgis-ogc-cite/roles/qgis/files/data-wms-1.3.0/shapefile/Buildings.shp" id="Buildings20170301162237024" expanded="1">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer expanded="1" checked="Qt::Checked" id="BuildingCenters20170301162237032" name="cite:BuildingCenters">
+    <layer-tree-layer name="cite:BuildingCenters" providerKey="ogr" checked="Qt::Checked" source="/home/blottiere/devel/packages/docker-qgis-ogc-cite/roles/qgis/files/data-wms-1.3.0/shapefile/BuildingCenters.shp" id="BuildingCenters20170301162237032" expanded="1">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer expanded="1" checked="Qt::Checked" id="Bridges20170301162237035" name="cite:Bridges">
+    <layer-tree-layer name="cite:Bridges" providerKey="ogr" checked="Qt::Checked" source="/home/blottiere/devel/packages/docker-qgis-ogc-cite/roles/qgis/files/data-wms-1.3.0/shapefile/Bridges.shp" id="Bridges20170301162237035" expanded="1">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer expanded="1" checked="Qt::Checked" id="BasicPolygons20170301162237037" name="cite:BasicPolygons">
+    <layer-tree-layer name="cite:BasicPolygons" providerKey="ogr" checked="Qt::Checked" source="/home/blottiere/devel/packages/docker-qgis-ogc-cite/roles/qgis/files/data-wms-1.3.0/shapefile/BasicPolygons.shp" id="BasicPolygons20170301162237037" expanded="1">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer expanded="1" checked="Qt::Checked" id="Autos20170301162237048" name="cite:Autos">
+    <layer-tree-layer name="cite:Autos" providerKey="ogr" checked="Qt::Checked" source="/home/blottiere/devel/packages/docker-qgis-ogc-cite/roles/qgis/files/data-wms-1.3.0/shapefile/Autos.shp" id="Autos20170301162237048" expanded="1">
       <customproperties/>
     </layer-tree-layer>
-  </layer-tree-group>
-  <snapping-settings unit="2" type="1" mode="2" intersection-snapping="0" enabled="0" tolerance="0">
-    <individual-layer-settings>
-      <layer-setting type="1" enabled="0" units="2" id="Buildings20170301162237024" tolerance="0"/>
-      <layer-setting type="1" enabled="0" units="2" id="BasicPolygons20170301162237037" tolerance="0"/>
-      <layer-setting type="1" enabled="0" units="2" id="Streams20170301162236949" tolerance="0"/>
-      <layer-setting type="1" enabled="0" units="2" id="Ponds20170301162236982" tolerance="0"/>
-      <layer-setting type="1" enabled="0" units="2" id="Lakes20170301162237004" tolerance="0"/>
-      <layer-setting type="1" enabled="0" units="2" id="Autos20170301162237048" tolerance="0"/>
-      <layer-setting type="1" enabled="0" units="2" id="RoadSegments20170301162236975" tolerance="0"/>
-      <layer-setting type="1" enabled="0" units="2" id="Bridges20170301162237035" tolerance="0"/>
-      <layer-setting type="1" enabled="0" units="2" id="DividedRoutes20170301162237015" tolerance="0"/>
-      <layer-setting type="1" enabled="0" units="2" id="Forests20170301162237014" tolerance="0"/>
-      <layer-setting type="1" enabled="0" units="2" id="lakesWithElevation20170301162236998" tolerance="0"/>
-      <layer-setting type="1" enabled="0" units="2" id="NamedPlaces20170301162236984" tolerance="0"/>
-      <layer-setting type="1" enabled="0" units="2" id="MapNeatline20170301162236991" tolerance="0"/>
-      <layer-setting type="1" enabled="0" units="2" id="BuildingCenters20170301162237032" tolerance="0"/>
-    </individual-layer-settings>
-  </snapping-settings>
-  <relations/>
-  <mapcanvas>
-    <units>degrees</units>
-    <extent>
-      <xmin>-2.48826330005470808</xmin>
-      <ymin>-2.29590103739287832</ymin>
-      <xmax>3.11173669994529156</xmax>
-      <ymax>7.50409896260711839</ymax>
-    </extent>
-    <rotation>0</rotation>
-    <projections>0</projections>
-    <destinationsrs>
-      <spatialrefsys>
-        <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
-        <srsid>3452</srsid>
-        <srid>4326</srid>
-        <authid>EPSG:4326</authid>
-        <description>WGS 84</description>
-        <projectionacronym>longlat</projectionacronym>
-        <ellipsoidacronym>WGS84</ellipsoidacronym>
-        <geographicflag>true</geographicflag>
-      </spatialrefsys>
-    </destinationsrs>
-    <rendermaptile>0</rendermaptile>
-    <layer_coordinate_transform_info/>
-  </mapcanvas>
-  <layer-tree-canvas>
     <custom-order enabled="0">
       <item>Streams20170301162236949</item>
       <item>RoadSegments20170301162236975</item>
@@ -109,81 +64,128 @@
       <item>BasicPolygons20170301162237037</item>
       <item>Autos20170301162237048</item>
     </custom-order>
-  </layer-tree-canvas>
+  </layer-tree-group>
+  <snapping-settings enabled="0" unit="2" mode="2" type="1" tolerance="0" intersection-snapping="0">
+    <individual-layer-settings>
+      <layer-setting enabled="0" type="1" tolerance="0" id="Bridges20170301162237035" units="2"/>
+      <layer-setting enabled="0" type="1" tolerance="0" id="BasicPolygons20170301162237037" units="2"/>
+      <layer-setting enabled="0" type="1" tolerance="0" id="MapNeatline20170301162236991" units="2"/>
+      <layer-setting enabled="0" type="1" tolerance="0" id="RoadSegments20170301162236975" units="2"/>
+      <layer-setting enabled="0" type="1" tolerance="0" id="BuildingCenters20170301162237032" units="2"/>
+      <layer-setting enabled="0" type="1" tolerance="0" id="NamedPlaces20170301162236984" units="2"/>
+      <layer-setting enabled="0" type="1" tolerance="0" id="lakesWithElevation20170301162236998" units="2"/>
+      <layer-setting enabled="0" type="1" tolerance="0" id="DividedRoutes20170301162237015" units="2"/>
+      <layer-setting enabled="0" type="1" tolerance="0" id="Buildings20170301162237024" units="2"/>
+      <layer-setting enabled="0" type="1" tolerance="0" id="Ponds20170301162236982" units="2"/>
+      <layer-setting enabled="0" type="1" tolerance="0" id="Autos20170301162237048" units="2"/>
+      <layer-setting enabled="0" type="1" tolerance="0" id="Forests20170301162237014" units="2"/>
+      <layer-setting enabled="0" type="1" tolerance="0" id="Lakes20170301162237004" units="2"/>
+      <layer-setting enabled="0" type="1" tolerance="0" id="Streams20170301162236949" units="2"/>
+    </individual-layer-settings>
+  </snapping-settings>
+  <relations/>
+  <mapcanvas name="theMapCanvas" annotationsVisible="1">
+    <units>unknown</units>
+    <extent>
+      <xmin>-2.48826330005470808</xmin>
+      <ymin>-2.29590103739287832</ymin>
+      <xmax>3.11173669994529156</xmax>
+      <ymax>7.50409896260711839</ymax>
+    </extent>
+    <rotation>0</rotation>
+    <rendermaptile>0</rendermaptile>
+    <layer_coordinate_transform_info>
+      <layer_coordinate_transform srcDatumTransform="-1" layerid="Streams20170301162236949" destAuthId="" srcAuthId="EPSG:4326" destDatumTransform="-1"/>
+      <layer_coordinate_transform srcDatumTransform="-1" layerid="Autos20170301162237048" destAuthId="" srcAuthId="EPSG:4326" destDatumTransform="-1"/>
+      <layer_coordinate_transform srcDatumTransform="-1" layerid="DividedRoutes20170301162237015" destAuthId="" srcAuthId="EPSG:4326" destDatumTransform="-1"/>
+      <layer_coordinate_transform srcDatumTransform="-1" layerid="Bridges20170301162237035" destAuthId="" srcAuthId="EPSG:4326" destDatumTransform="-1"/>
+      <layer_coordinate_transform srcDatumTransform="-1" layerid="Buildings20170301162237024" destAuthId="" srcAuthId="EPSG:4326" destDatumTransform="-1"/>
+      <layer_coordinate_transform srcDatumTransform="-1" layerid="lakesWithElevation20170301162236998" destAuthId="" srcAuthId="EPSG:4326" destDatumTransform="-1"/>
+      <layer_coordinate_transform srcDatumTransform="-1" layerid="BuildingCenters20170301162237032" destAuthId="" srcAuthId="EPSG:4326" destDatumTransform="-1"/>
+      <layer_coordinate_transform srcDatumTransform="-1" layerid="Lakes20170301162237004" destAuthId="" srcAuthId="EPSG:4326" destDatumTransform="-1"/>
+      <layer_coordinate_transform srcDatumTransform="-1" layerid="NamedPlaces20170301162236984" destAuthId="" srcAuthId="EPSG:4326" destDatumTransform="-1"/>
+      <layer_coordinate_transform srcDatumTransform="-1" layerid="RoadSegments20170301162236975" destAuthId="" srcAuthId="EPSG:4326" destDatumTransform="-1"/>
+      <layer_coordinate_transform srcDatumTransform="-1" layerid="BasicPolygons20170301162237037" destAuthId="" srcAuthId="EPSG:4326" destDatumTransform="-1"/>
+      <layer_coordinate_transform srcDatumTransform="-1" layerid="MapNeatline20170301162236991" destAuthId="" srcAuthId="EPSG:4326" destDatumTransform="-1"/>
+      <layer_coordinate_transform srcDatumTransform="-1" layerid="Forests20170301162237014" destAuthId="" srcAuthId="EPSG:4326" destDatumTransform="-1"/>
+      <layer_coordinate_transform srcDatumTransform="-1" layerid="Ponds20170301162236982" destAuthId="" srcAuthId="EPSG:4326" destDatumTransform="-1"/>
+    </layer_coordinate_transform_info>
+  </mapcanvas>
   <legend updateDrawingOrder="true">
-    <legendlayer drawingOrder="-1" open="true" showFeatureCount="0" checked="Qt::Checked" name="cite:Streams">
+    <legendlayer name="cite:Streams" open="true" checked="Qt::Checked" showFeatureCount="0" drawingOrder="-1">
       <filegroup open="true" hidden="false">
-        <legendlayerfile visible="1" isInOverview="0" layerid="Streams20170301162236949"/>
+        <legendlayerfile layerid="Streams20170301162236949" visible="1" isInOverview="0"/>
       </filegroup>
     </legendlayer>
-    <legendlayer drawingOrder="-1" open="true" showFeatureCount="0" checked="Qt::Checked" name="cite:RoadSegments">
+    <legendlayer name="cite:RoadSegments" open="true" checked="Qt::Checked" showFeatureCount="0" drawingOrder="-1">
       <filegroup open="true" hidden="false">
-        <legendlayerfile visible="1" isInOverview="0" layerid="RoadSegments20170301162236975"/>
+        <legendlayerfile layerid="RoadSegments20170301162236975" visible="1" isInOverview="0"/>
       </filegroup>
     </legendlayer>
-    <legendlayer drawingOrder="-1" open="true" showFeatureCount="0" checked="Qt::Checked" name="cite:Ponds">
+    <legendlayer name="cite:Ponds" open="true" checked="Qt::Checked" showFeatureCount="0" drawingOrder="-1">
       <filegroup open="true" hidden="false">
-        <legendlayerfile visible="1" isInOverview="0" layerid="Ponds20170301162236982"/>
+        <legendlayerfile layerid="Ponds20170301162236982" visible="1" isInOverview="0"/>
       </filegroup>
     </legendlayer>
-    <legendlayer drawingOrder="-1" open="true" showFeatureCount="0" checked="Qt::Checked" name="cite:NamedPlaces">
+    <legendlayer name="cite:NamedPlaces" open="true" checked="Qt::Checked" showFeatureCount="0" drawingOrder="-1">
       <filegroup open="true" hidden="false">
-        <legendlayerfile visible="1" isInOverview="0" layerid="NamedPlaces20170301162236984"/>
+        <legendlayerfile layerid="NamedPlaces20170301162236984" visible="1" isInOverview="0"/>
       </filegroup>
     </legendlayer>
-    <legendlayer drawingOrder="-1" open="true" showFeatureCount="0" checked="Qt::Checked" name="cite:MapNeatline">
+    <legendlayer name="cite:MapNeatline" open="true" checked="Qt::Checked" showFeatureCount="0" drawingOrder="-1">
       <filegroup open="true" hidden="false">
-        <legendlayerfile visible="1" isInOverview="0" layerid="MapNeatline20170301162236991"/>
+        <legendlayerfile layerid="MapNeatline20170301162236991" visible="1" isInOverview="0"/>
       </filegroup>
     </legendlayer>
-    <legendlayer drawingOrder="-1" open="true" showFeatureCount="0" checked="Qt::Checked" name="cite:LakesWithElevation">
+    <legendlayer name="cite:LakesWithElevation" open="true" checked="Qt::Checked" showFeatureCount="0" drawingOrder="-1">
       <filegroup open="true" hidden="false">
-        <legendlayerfile visible="1" isInOverview="0" layerid="lakesWithElevation20170301162236998"/>
+        <legendlayerfile layerid="lakesWithElevation20170301162236998" visible="1" isInOverview="0"/>
       </filegroup>
     </legendlayer>
-    <legendlayer drawingOrder="-1" open="true" showFeatureCount="0" checked="Qt::Checked" name="cite:Lakes">
+    <legendlayer name="cite:Lakes" open="true" checked="Qt::Checked" showFeatureCount="0" drawingOrder="-1">
       <filegroup open="true" hidden="false">
-        <legendlayerfile visible="1" isInOverview="0" layerid="Lakes20170301162237004"/>
+        <legendlayerfile layerid="Lakes20170301162237004" visible="1" isInOverview="0"/>
       </filegroup>
     </legendlayer>
-    <legendlayer drawingOrder="-1" open="true" showFeatureCount="0" checked="Qt::Checked" name="cite:Forests">
+    <legendlayer name="cite:Forests" open="true" checked="Qt::Checked" showFeatureCount="0" drawingOrder="-1">
       <filegroup open="true" hidden="false">
-        <legendlayerfile visible="1" isInOverview="0" layerid="Forests20170301162237014"/>
+        <legendlayerfile layerid="Forests20170301162237014" visible="1" isInOverview="0"/>
       </filegroup>
     </legendlayer>
-    <legendlayer drawingOrder="-1" open="true" showFeatureCount="0" checked="Qt::Checked" name="cite:DividedRoutes">
+    <legendlayer name="cite:DividedRoutes" open="true" checked="Qt::Checked" showFeatureCount="0" drawingOrder="-1">
       <filegroup open="true" hidden="false">
-        <legendlayerfile visible="1" isInOverview="0" layerid="DividedRoutes20170301162237015"/>
+        <legendlayerfile layerid="DividedRoutes20170301162237015" visible="1" isInOverview="0"/>
       </filegroup>
     </legendlayer>
-    <legendlayer drawingOrder="-1" open="true" showFeatureCount="0" checked="Qt::Checked" name="cite:Buildings">
+    <legendlayer name="cite:Buildings" open="true" checked="Qt::Checked" showFeatureCount="0" drawingOrder="-1">
       <filegroup open="true" hidden="false">
-        <legendlayerfile visible="1" isInOverview="0" layerid="Buildings20170301162237024"/>
+        <legendlayerfile layerid="Buildings20170301162237024" visible="1" isInOverview="0"/>
       </filegroup>
     </legendlayer>
-    <legendlayer drawingOrder="-1" open="true" showFeatureCount="0" checked="Qt::Checked" name="cite:BuildingCenters">
+    <legendlayer name="cite:BuildingCenters" open="true" checked="Qt::Checked" showFeatureCount="0" drawingOrder="-1">
       <filegroup open="true" hidden="false">
-        <legendlayerfile visible="1" isInOverview="0" layerid="BuildingCenters20170301162237032"/>
+        <legendlayerfile layerid="BuildingCenters20170301162237032" visible="1" isInOverview="0"/>
       </filegroup>
     </legendlayer>
-    <legendlayer drawingOrder="-1" open="true" showFeatureCount="0" checked="Qt::Checked" name="cite:Bridges">
+    <legendlayer name="cite:Bridges" open="true" checked="Qt::Checked" showFeatureCount="0" drawingOrder="-1">
       <filegroup open="true" hidden="false">
-        <legendlayerfile visible="1" isInOverview="0" layerid="Bridges20170301162237035"/>
+        <legendlayerfile layerid="Bridges20170301162237035" visible="1" isInOverview="0"/>
       </filegroup>
     </legendlayer>
-    <legendlayer drawingOrder="-1" open="true" showFeatureCount="0" checked="Qt::Checked" name="cite:BasicPolygons">
+    <legendlayer name="cite:BasicPolygons" open="true" checked="Qt::Checked" showFeatureCount="0" drawingOrder="-1">
       <filegroup open="true" hidden="false">
-        <legendlayerfile visible="1" isInOverview="0" layerid="BasicPolygons20170301162237037"/>
+        <legendlayerfile layerid="BasicPolygons20170301162237037" visible="1" isInOverview="0"/>
       </filegroup>
     </legendlayer>
-    <legendlayer drawingOrder="-1" open="true" showFeatureCount="0" checked="Qt::Checked" name="cite:Autos">
+    <legendlayer name="cite:Autos" open="true" checked="Qt::Checked" showFeatureCount="0" drawingOrder="-1">
       <filegroup open="true" hidden="false">
-        <legendlayerfile visible="1" isInOverview="0" layerid="Autos20170301162237048"/>
+        <legendlayerfile layerid="Autos20170301162237048" visible="1" isInOverview="0"/>
       </filegroup>
     </legendlayer>
   </legend>
+  <mapViewDocks/>
   <projectlayers>
-    <maplayer minimumScale="0" geometry="Point" simplifyAlgorithm="0" simplifyDrawingTol="1" hasScaleBasedVisibilityFlag="0" type="vector" simplifyLocal="1" maximumScale="1e+08" simplifyMaxScale="1" simplifyDrawingHints="1" readOnly="0">
+    <maplayer simplifyMaxScale="1" refreshOnNotifyMessage="" simplifyDrawingHints="1" readOnly="0" simplifyLocal="1" maxScale="0" type="vector" autoRefreshEnabled="0" hasScaleBasedVisibilityFlag="0" minScale="1e+8" simplifyDrawingTol="1" autoRefreshTime="0" simplifyAlgorithm="0" refreshOnNotifyEnabled="0" geometry="Point">
       <extent>
         <xmin>-0.0032</xmin>
         <ymin>-0.0022</ymin>
@@ -208,71 +210,123 @@
           <geographicflag>true</geographicflag>
         </spatialrefsys>
       </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+            <srsid>3452</srsid>
+            <srid>4326</srid>
+            <authid>EPSG:4326</authid>
+            <description>WGS 84</description>
+            <projectionacronym>longlat</projectionacronym>
+            <ellipsoidacronym>WGS84</ellipsoidacronym>
+            <geographicflag>true</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+        <links/>
+      </resourceMetadata>
       <provider encoding="UTF-8">ogr</provider>
       <vectorjoins/>
       <layerDependencies/>
-      <defaults>
-        <default field="FID" expression=""/>
-        <default field="NUM" expression=""/>
-        <default field="TIME" expression=""/>
-      </defaults>
-      <constraints>
-        <constraint field="FID" exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0"/>
-        <constraint field="NUM" exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0"/>
-        <constraint field="TIME" exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0"/>
-      </constraints>
-      <constraintExpressions>
-        <constraint exp="" field="FID" desc=""/>
-        <constraint exp="" field="NUM" desc=""/>
-        <constraint exp="" field="TIME" desc=""/>
-      </constraintExpressions>
       <dataDependencies/>
       <expressionfields/>
-      <map-layer-style-manager current="">
-        <map-layer-style name=""/>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
       </map-layer-style-manager>
-      <edittypes/>
-      <renderer-v2 forceraster="0" type="singleSymbol" enableorderby="0" symbollevels="0">
+      <auxiliaryLayer/>
+      <renderer-v2 enableorderby="0" type="singleSymbol" symbollevels="0" forceraster="0">
         <symbols>
-          <symbol type="marker" alpha="1" name="0" clip_to_extent="1">
-            <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
+          <symbol name="0" clip_to_extent="1" type="marker" alpha="1">
+            <layer enabled="1" locked="0" pass="0" class="SimpleMarker">
               <prop k="angle" v="0"/>
               <prop k="color" v="76,71,169,255"/>
               <prop k="horizontal_anchor_point" v="1"/>
               <prop k="joinstyle" v="bevel"/>
               <prop k="name" v="circle"/>
               <prop k="offset" v="0,0"/>
-              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
               <prop k="offset_unit" v="MM"/>
               <prop k="outline_color" v="0,0,0,255"/>
               <prop k="outline_style" v="solid"/>
               <prop k="outline_width" v="0"/>
-              <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="outline_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
               <prop k="outline_width_unit" v="MM"/>
               <prop k="scale_method" v="diameter"/>
               <prop k="size" v="2"/>
-              <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="size_map_unit_scale" v="3x:0,0,0,0,0,0"/>
               <prop k="size_unit" v="MM"/>
               <prop k="vertical_anchor_point" v="1"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option name="name" type="QString" value=""/>
+                  <Option name="properties"/>
+                  <Option name="type" type="QString" value="collection"/>
+                </Option>
+              </data_defined_properties>
             </layer>
           </symbol>
         </symbols>
         <rotation/>
         <sizescale/>
       </renderer-v2>
-      <labeling type="simple"/>
       <customproperties/>
       <blendMode>0</blendMode>
       <featureBlendMode>0</featureBlendMode>
-      <layerTransparency>0</layerTransparency>
-      <annotationform></annotationform>
+      <layerOpacity>1</layerOpacity>
+      <fieldConfiguration>
+        <field name="FID">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="NUM">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="TIME">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
       <aliases>
-        <alias field="FID" index="0" name=""/>
-        <alias field="NUM" index="1" name=""/>
-        <alias field="TIME" index="2" name=""/>
+        <alias name="" index="0" field="FID"/>
+        <alias name="" index="1" field="NUM"/>
+        <alias name="" index="2" field="TIME"/>
       </aliases>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
+      <defaults>
+        <default applyOnUpdate="0" expression="" field="FID"/>
+        <default applyOnUpdate="0" expression="" field="NUM"/>
+        <default applyOnUpdate="0" expression="" field="TIME"/>
+      </defaults>
+      <constraints>
+        <constraint constraints="0" notnull_strength="0" exp_strength="0" unique_strength="0" field="FID"/>
+        <constraint constraints="0" notnull_strength="0" exp_strength="0" unique_strength="0" field="NUM"/>
+        <constraint constraints="0" notnull_strength="0" exp_strength="0" unique_strength="0" field="TIME"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint exp="" desc="" field="FID"/>
+        <constraint exp="" desc="" field="NUM"/>
+        <constraint exp="" desc="" field="TIME"/>
+      </constraintExpressions>
       <attributeactions/>
       <attributetableconfig sortExpression="" actionWidgetStyle="dropDown" sortOrder="0">
         <columns/>
@@ -293,7 +347,7 @@
       <previewExpression></previewExpression>
       <mapTip></mapTip>
     </maplayer>
-    <maplayer minimumScale="0" geometry="Polygon" simplifyAlgorithm="0" simplifyDrawingTol="1" hasScaleBasedVisibilityFlag="0" type="vector" simplifyLocal="1" maximumScale="1e+08" simplifyMaxScale="1" simplifyDrawingHints="1" readOnly="0">
+    <maplayer simplifyMaxScale="1" refreshOnNotifyMessage="" simplifyDrawingHints="1" readOnly="0" simplifyLocal="1" maxScale="0" type="vector" autoRefreshEnabled="0" hasScaleBasedVisibilityFlag="0" minScale="1e+8" simplifyDrawingTol="1" autoRefreshTime="0" simplifyAlgorithm="0" refreshOnNotifyEnabled="0" geometry="Polygon">
       <extent>
         <xmin>-2</xmin>
         <ymin>-1</ymin>
@@ -318,56 +372,94 @@
           <geographicflag>true</geographicflag>
         </spatialrefsys>
       </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+            <srsid>3452</srsid>
+            <srid>4326</srid>
+            <authid>EPSG:4326</authid>
+            <description>WGS 84</description>
+            <projectionacronym>longlat</projectionacronym>
+            <ellipsoidacronym>WGS84</ellipsoidacronym>
+            <geographicflag>true</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+        <links/>
+      </resourceMetadata>
       <provider encoding="UTF-8">ogr</provider>
       <vectorjoins/>
       <layerDependencies/>
-      <defaults>
-        <default field="ID" expression=""/>
-      </defaults>
-      <constraints>
-        <constraint field="ID" exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0"/>
-      </constraints>
-      <constraintExpressions>
-        <constraint exp="" field="ID" desc=""/>
-      </constraintExpressions>
       <dataDependencies/>
       <expressionfields/>
-      <map-layer-style-manager current="">
-        <map-layer-style name=""/>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
       </map-layer-style-manager>
-      <edittypes/>
-      <renderer-v2 forceraster="0" type="singleSymbol" enableorderby="0" symbollevels="0">
+      <auxiliaryLayer/>
+      <renderer-v2 enableorderby="0" type="singleSymbol" symbollevels="0" forceraster="0">
         <symbols>
-          <symbol type="fill" alpha="1" name="0" clip_to_extent="1">
-            <layer class="SimpleFill" locked="0" enabled="1" pass="0">
-              <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
+          <symbol name="0" clip_to_extent="1" type="fill" alpha="1">
+            <layer enabled="1" locked="0" pass="0" class="SimpleFill">
+              <prop k="border_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
               <prop k="color" v="197,136,184,255"/>
               <prop k="joinstyle" v="bevel"/>
               <prop k="offset" v="0,0"/>
-              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
               <prop k="offset_unit" v="MM"/>
               <prop k="outline_color" v="0,0,0,255"/>
               <prop k="outline_style" v="solid"/>
               <prop k="outline_width" v="0.26"/>
               <prop k="outline_width_unit" v="MM"/>
               <prop k="style" v="solid"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option name="name" type="QString" value=""/>
+                  <Option name="properties"/>
+                  <Option name="type" type="QString" value="collection"/>
+                </Option>
+              </data_defined_properties>
             </layer>
           </symbol>
         </symbols>
         <rotation/>
         <sizescale/>
       </renderer-v2>
-      <labeling type="simple"/>
       <customproperties/>
       <blendMode>0</blendMode>
       <featureBlendMode>0</featureBlendMode>
-      <layerTransparency>0</layerTransparency>
-      <annotationform></annotationform>
+      <layerOpacity>1</layerOpacity>
+      <fieldConfiguration>
+        <field name="ID">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
       <aliases>
-        <alias field="ID" index="0" name=""/>
+        <alias name="" index="0" field="ID"/>
       </aliases>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
+      <defaults>
+        <default applyOnUpdate="0" expression="" field="ID"/>
+      </defaults>
+      <constraints>
+        <constraint constraints="0" notnull_strength="0" exp_strength="0" unique_strength="0" field="ID"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint exp="" desc="" field="ID"/>
+      </constraintExpressions>
       <attributeactions/>
       <attributetableconfig sortExpression="" actionWidgetStyle="dropDown" sortOrder="0">
         <columns/>
@@ -388,7 +480,7 @@
       <previewExpression></previewExpression>
       <mapTip></mapTip>
     </maplayer>
-    <maplayer minimumScale="0" geometry="Point" simplifyAlgorithm="0" simplifyDrawingTol="1" hasScaleBasedVisibilityFlag="0" type="vector" simplifyLocal="1" maximumScale="1e+08" simplifyMaxScale="1" simplifyDrawingHints="1" readOnly="0">
+    <maplayer simplifyMaxScale="1" refreshOnNotifyMessage="" simplifyDrawingHints="1" readOnly="0" simplifyLocal="1" maxScale="0" type="vector" autoRefreshEnabled="0" hasScaleBasedVisibilityFlag="0" minScale="1e+8" simplifyDrawingTol="1" autoRefreshTime="0" simplifyAlgorithm="0" refreshOnNotifyEnabled="0" geometry="Point">
       <extent>
         <xmin>0.0002</xmin>
         <ymin>0.0007</ymin>
@@ -413,67 +505,112 @@
           <geographicflag>true</geographicflag>
         </spatialrefsys>
       </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+            <srsid>3452</srsid>
+            <srid>4326</srid>
+            <authid>EPSG:4326</authid>
+            <description>WGS 84</description>
+            <projectionacronym>longlat</projectionacronym>
+            <ellipsoidacronym>WGS84</ellipsoidacronym>
+            <geographicflag>true</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+        <links/>
+      </resourceMetadata>
       <provider encoding="UTF-8">ogr</provider>
       <vectorjoins/>
       <layerDependencies/>
-      <defaults>
-        <default field="FID" expression=""/>
-        <default field="NAME" expression=""/>
-      </defaults>
-      <constraints>
-        <constraint field="FID" exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0"/>
-        <constraint field="NAME" exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0"/>
-      </constraints>
-      <constraintExpressions>
-        <constraint exp="" field="FID" desc=""/>
-        <constraint exp="" field="NAME" desc=""/>
-      </constraintExpressions>
       <dataDependencies/>
       <expressionfields/>
-      <map-layer-style-manager current="">
-        <map-layer-style name=""/>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
       </map-layer-style-manager>
-      <edittypes/>
-      <renderer-v2 forceraster="0" type="singleSymbol" enableorderby="0" symbollevels="0">
+      <auxiliaryLayer/>
+      <renderer-v2 enableorderby="0" type="singleSymbol" symbollevels="0" forceraster="0">
         <symbols>
-          <symbol type="marker" alpha="1" name="0" clip_to_extent="1">
-            <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
+          <symbol name="0" clip_to_extent="1" type="marker" alpha="1">
+            <layer enabled="1" locked="0" pass="0" class="SimpleMarker">
               <prop k="angle" v="0"/>
               <prop k="color" v="190,161,139,255"/>
               <prop k="horizontal_anchor_point" v="1"/>
               <prop k="joinstyle" v="bevel"/>
               <prop k="name" v="circle"/>
               <prop k="offset" v="0,0"/>
-              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
               <prop k="offset_unit" v="MM"/>
               <prop k="outline_color" v="0,0,0,255"/>
               <prop k="outline_style" v="solid"/>
               <prop k="outline_width" v="0"/>
-              <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="outline_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
               <prop k="outline_width_unit" v="MM"/>
               <prop k="scale_method" v="diameter"/>
               <prop k="size" v="2"/>
-              <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="size_map_unit_scale" v="3x:0,0,0,0,0,0"/>
               <prop k="size_unit" v="MM"/>
               <prop k="vertical_anchor_point" v="1"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option name="name" type="QString" value=""/>
+                  <Option name="properties"/>
+                  <Option name="type" type="QString" value="collection"/>
+                </Option>
+              </data_defined_properties>
             </layer>
           </symbol>
         </symbols>
         <rotation/>
         <sizescale/>
       </renderer-v2>
-      <labeling type="simple"/>
       <customproperties/>
       <blendMode>0</blendMode>
       <featureBlendMode>0</featureBlendMode>
-      <layerTransparency>0</layerTransparency>
-      <annotationform></annotationform>
+      <layerOpacity>1</layerOpacity>
+      <fieldConfiguration>
+        <field name="FID">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="NAME">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
       <aliases>
-        <alias field="FID" index="0" name=""/>
-        <alias field="NAME" index="1" name=""/>
+        <alias name="" index="0" field="FID"/>
+        <alias name="" index="1" field="NAME"/>
       </aliases>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
+      <defaults>
+        <default applyOnUpdate="0" expression="" field="FID"/>
+        <default applyOnUpdate="0" expression="" field="NAME"/>
+      </defaults>
+      <constraints>
+        <constraint constraints="0" notnull_strength="0" exp_strength="0" unique_strength="0" field="FID"/>
+        <constraint constraints="0" notnull_strength="0" exp_strength="0" unique_strength="0" field="NAME"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint exp="" desc="" field="FID"/>
+        <constraint exp="" desc="" field="NAME"/>
+      </constraintExpressions>
       <attributeactions/>
       <attributetableconfig sortExpression="" actionWidgetStyle="dropDown" sortOrder="0">
         <columns/>
@@ -494,7 +631,7 @@
       <previewExpression></previewExpression>
       <mapTip></mapTip>
     </maplayer>
-    <maplayer minimumScale="0" geometry="Point" simplifyAlgorithm="0" simplifyDrawingTol="1" hasScaleBasedVisibilityFlag="0" type="vector" simplifyLocal="1" maximumScale="1e+08" simplifyMaxScale="1" simplifyDrawingHints="1" readOnly="0">
+    <maplayer simplifyMaxScale="1" refreshOnNotifyMessage="" simplifyDrawingHints="1" readOnly="0" simplifyLocal="1" maxScale="0" type="vector" autoRefreshEnabled="0" hasScaleBasedVisibilityFlag="0" minScale="1e+8" simplifyDrawingTol="1" autoRefreshTime="0" simplifyAlgorithm="0" refreshOnNotifyEnabled="0" geometry="Point">
       <extent>
         <xmin>0.001</xmin>
         <ymin>0.0006</ymin>
@@ -519,67 +656,112 @@
           <geographicflag>true</geographicflag>
         </spatialrefsys>
       </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+            <srsid>3452</srsid>
+            <srid>4326</srid>
+            <authid>EPSG:4326</authid>
+            <description>WGS 84</description>
+            <projectionacronym>longlat</projectionacronym>
+            <ellipsoidacronym>WGS84</ellipsoidacronym>
+            <geographicflag>true</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+        <links/>
+      </resourceMetadata>
       <provider encoding="UTF-8">ogr</provider>
       <vectorjoins/>
       <layerDependencies/>
-      <defaults>
-        <default field="FID" expression=""/>
-        <default field="ADDRESS" expression=""/>
-      </defaults>
-      <constraints>
-        <constraint field="FID" exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0"/>
-        <constraint field="ADDRESS" exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0"/>
-      </constraints>
-      <constraintExpressions>
-        <constraint exp="" field="FID" desc=""/>
-        <constraint exp="" field="ADDRESS" desc=""/>
-      </constraintExpressions>
       <dataDependencies/>
       <expressionfields/>
-      <map-layer-style-manager current="">
-        <map-layer-style name=""/>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
       </map-layer-style-manager>
-      <edittypes/>
-      <renderer-v2 forceraster="0" type="singleSymbol" enableorderby="0" symbollevels="0">
+      <auxiliaryLayer/>
+      <renderer-v2 enableorderby="0" type="singleSymbol" symbollevels="0" forceraster="0">
         <symbols>
-          <symbol type="marker" alpha="1" name="0" clip_to_extent="1">
-            <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
+          <symbol name="0" clip_to_extent="1" type="marker" alpha="1">
+            <layer enabled="1" locked="0" pass="0" class="SimpleMarker">
               <prop k="angle" v="0"/>
               <prop k="color" v="85,193,235,255"/>
               <prop k="horizontal_anchor_point" v="1"/>
               <prop k="joinstyle" v="bevel"/>
               <prop k="name" v="circle"/>
               <prop k="offset" v="0,0"/>
-              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
               <prop k="offset_unit" v="MM"/>
               <prop k="outline_color" v="0,0,0,255"/>
               <prop k="outline_style" v="solid"/>
               <prop k="outline_width" v="0"/>
-              <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="outline_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
               <prop k="outline_width_unit" v="MM"/>
               <prop k="scale_method" v="diameter"/>
               <prop k="size" v="2"/>
-              <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="size_map_unit_scale" v="3x:0,0,0,0,0,0"/>
               <prop k="size_unit" v="MM"/>
               <prop k="vertical_anchor_point" v="1"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option name="name" type="QString" value=""/>
+                  <Option name="properties"/>
+                  <Option name="type" type="QString" value="collection"/>
+                </Option>
+              </data_defined_properties>
             </layer>
           </symbol>
         </symbols>
         <rotation/>
         <sizescale/>
       </renderer-v2>
-      <labeling type="simple"/>
       <customproperties/>
       <blendMode>0</blendMode>
       <featureBlendMode>0</featureBlendMode>
-      <layerTransparency>0</layerTransparency>
-      <annotationform></annotationform>
+      <layerOpacity>1</layerOpacity>
+      <fieldConfiguration>
+        <field name="FID">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="ADDRESS">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
       <aliases>
-        <alias field="FID" index="0" name=""/>
-        <alias field="ADDRESS" index="1" name=""/>
+        <alias name="" index="0" field="FID"/>
+        <alias name="" index="1" field="ADDRESS"/>
       </aliases>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
+      <defaults>
+        <default applyOnUpdate="0" expression="" field="FID"/>
+        <default applyOnUpdate="0" expression="" field="ADDRESS"/>
+      </defaults>
+      <constraints>
+        <constraint constraints="0" notnull_strength="0" exp_strength="0" unique_strength="0" field="FID"/>
+        <constraint constraints="0" notnull_strength="0" exp_strength="0" unique_strength="0" field="ADDRESS"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint exp="" desc="" field="FID"/>
+        <constraint exp="" desc="" field="ADDRESS"/>
+      </constraintExpressions>
       <attributeactions/>
       <attributetableconfig sortExpression="" actionWidgetStyle="dropDown" sortOrder="0">
         <columns/>
@@ -600,7 +782,7 @@
       <previewExpression></previewExpression>
       <mapTip></mapTip>
     </maplayer>
-    <maplayer minimumScale="0" geometry="Polygon" simplifyAlgorithm="0" simplifyDrawingTol="1" hasScaleBasedVisibilityFlag="0" type="vector" simplifyLocal="1" maximumScale="1e+08" simplifyMaxScale="1" simplifyDrawingHints="1" readOnly="0">
+    <maplayer simplifyMaxScale="1" refreshOnNotifyMessage="" simplifyDrawingHints="1" readOnly="0" simplifyLocal="1" maxScale="0" type="vector" autoRefreshEnabled="0" hasScaleBasedVisibilityFlag="0" minScale="1e+8" simplifyDrawingTol="1" autoRefreshTime="0" simplifyAlgorithm="0" refreshOnNotifyEnabled="0" geometry="Polygon">
       <extent>
         <xmin>0.0008</xmin>
         <ymin>0.0005</ymin>
@@ -625,60 +807,105 @@
           <geographicflag>true</geographicflag>
         </spatialrefsys>
       </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+            <srsid>3452</srsid>
+            <srid>4326</srid>
+            <authid>EPSG:4326</authid>
+            <description>WGS 84</description>
+            <projectionacronym>longlat</projectionacronym>
+            <ellipsoidacronym>WGS84</ellipsoidacronym>
+            <geographicflag>true</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+        <links/>
+      </resourceMetadata>
       <provider encoding="UTF-8">ogr</provider>
       <vectorjoins/>
       <layerDependencies/>
-      <defaults>
-        <default field="FID" expression=""/>
-        <default field="ADDRESS" expression=""/>
-      </defaults>
-      <constraints>
-        <constraint field="FID" exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0"/>
-        <constraint field="ADDRESS" exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0"/>
-      </constraints>
-      <constraintExpressions>
-        <constraint exp="" field="FID" desc=""/>
-        <constraint exp="" field="ADDRESS" desc=""/>
-      </constraintExpressions>
       <dataDependencies/>
       <expressionfields/>
-      <map-layer-style-manager current="">
-        <map-layer-style name=""/>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
       </map-layer-style-manager>
-      <edittypes/>
-      <renderer-v2 forceraster="0" type="singleSymbol" enableorderby="0" symbollevels="0">
+      <auxiliaryLayer/>
+      <renderer-v2 enableorderby="0" type="singleSymbol" symbollevels="0" forceraster="0">
         <symbols>
-          <symbol type="fill" alpha="1" name="0" clip_to_extent="1">
-            <layer class="SimpleFill" locked="0" enabled="1" pass="0">
-              <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
+          <symbol name="0" clip_to_extent="1" type="fill" alpha="1">
+            <layer enabled="1" locked="0" pass="0" class="SimpleFill">
+              <prop k="border_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
               <prop k="color" v="132,91,153,255"/>
               <prop k="joinstyle" v="bevel"/>
               <prop k="offset" v="0,0"/>
-              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
               <prop k="offset_unit" v="MM"/>
               <prop k="outline_color" v="0,0,0,255"/>
               <prop k="outline_style" v="solid"/>
               <prop k="outline_width" v="0.26"/>
               <prop k="outline_width_unit" v="MM"/>
               <prop k="style" v="solid"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option name="name" type="QString" value=""/>
+                  <Option name="properties"/>
+                  <Option name="type" type="QString" value="collection"/>
+                </Option>
+              </data_defined_properties>
             </layer>
           </symbol>
         </symbols>
         <rotation/>
         <sizescale/>
       </renderer-v2>
-      <labeling type="simple"/>
       <customproperties/>
       <blendMode>0</blendMode>
       <featureBlendMode>0</featureBlendMode>
-      <layerTransparency>0</layerTransparency>
-      <annotationform></annotationform>
+      <layerOpacity>1</layerOpacity>
+      <fieldConfiguration>
+        <field name="FID">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="ADDRESS">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
       <aliases>
-        <alias field="FID" index="0" name=""/>
-        <alias field="ADDRESS" index="1" name=""/>
+        <alias name="" index="0" field="FID"/>
+        <alias name="" index="1" field="ADDRESS"/>
       </aliases>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
+      <defaults>
+        <default applyOnUpdate="0" expression="" field="FID"/>
+        <default applyOnUpdate="0" expression="" field="ADDRESS"/>
+      </defaults>
+      <constraints>
+        <constraint constraints="0" notnull_strength="0" exp_strength="0" unique_strength="0" field="FID"/>
+        <constraint constraints="0" notnull_strength="0" exp_strength="0" unique_strength="0" field="ADDRESS"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint exp="" desc="" field="FID"/>
+        <constraint exp="" desc="" field="ADDRESS"/>
+      </constraintExpressions>
       <attributeactions/>
       <attributetableconfig sortExpression="" actionWidgetStyle="dropDown" sortOrder="0">
         <columns/>
@@ -699,7 +926,7 @@
       <previewExpression></previewExpression>
       <mapTip></mapTip>
     </maplayer>
-    <maplayer minimumScale="0" geometry="Line" simplifyAlgorithm="0" simplifyDrawingTol="1" hasScaleBasedVisibilityFlag="0" type="vector" simplifyLocal="1" maximumScale="1e+08" simplifyMaxScale="1" simplifyDrawingHints="1" readOnly="0">
+    <maplayer simplifyMaxScale="1" refreshOnNotifyMessage="" simplifyDrawingHints="1" readOnly="0" simplifyLocal="1" maxScale="0" type="vector" autoRefreshEnabled="0" hasScaleBasedVisibilityFlag="0" minScale="1e+8" simplifyDrawingTol="1" autoRefreshTime="0" simplifyAlgorithm="0" refreshOnNotifyEnabled="0" geometry="Line">
       <extent>
         <xmin>-0.0032</xmin>
         <ymin>-0.0024</ymin>
@@ -724,37 +951,46 @@
           <geographicflag>true</geographicflag>
         </spatialrefsys>
       </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+            <srsid>3452</srsid>
+            <srid>4326</srid>
+            <authid>EPSG:4326</authid>
+            <description>WGS 84</description>
+            <projectionacronym>longlat</projectionacronym>
+            <ellipsoidacronym>WGS84</ellipsoidacronym>
+            <geographicflag>true</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+        <links/>
+      </resourceMetadata>
       <provider encoding="UTF-8">ogr</provider>
       <vectorjoins/>
       <layerDependencies/>
-      <defaults>
-        <default field="FID" expression=""/>
-        <default field="NAME" expression=""/>
-        <default field="NUM_LANES" expression=""/>
-      </defaults>
-      <constraints>
-        <constraint field="FID" exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0"/>
-        <constraint field="NAME" exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0"/>
-        <constraint field="NUM_LANES" exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0"/>
-      </constraints>
-      <constraintExpressions>
-        <constraint exp="" field="FID" desc=""/>
-        <constraint exp="" field="NAME" desc=""/>
-        <constraint exp="" field="NUM_LANES" desc=""/>
-      </constraintExpressions>
       <dataDependencies/>
       <expressionfields/>
-      <map-layer-style-manager current="">
-        <map-layer-style name=""/>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
       </map-layer-style-manager>
-      <edittypes/>
-      <renderer-v2 forceraster="0" type="singleSymbol" enableorderby="0" symbollevels="0">
+      <auxiliaryLayer/>
+      <renderer-v2 enableorderby="0" type="singleSymbol" symbollevels="0" forceraster="0">
         <symbols>
-          <symbol type="line" alpha="1" name="0" clip_to_extent="1">
-            <layer class="SimpleLine" locked="0" enabled="1" pass="0">
+          <symbol name="0" clip_to_extent="1" type="line" alpha="1">
+            <layer enabled="1" locked="0" pass="0" class="SimpleLine">
               <prop k="capstyle" v="square"/>
               <prop k="customdash" v="5;2"/>
-              <prop k="customdash_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="customdash_map_unit_scale" v="3x:0,0,0,0,0,0"/>
               <prop k="customdash_unit" v="MM"/>
               <prop k="draw_inside_polygon" v="0"/>
               <prop k="joinstyle" v="bevel"/>
@@ -763,29 +999,72 @@
               <prop k="line_width" v="0.26"/>
               <prop k="line_width_unit" v="MM"/>
               <prop k="offset" v="0"/>
-              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
               <prop k="offset_unit" v="MM"/>
               <prop k="use_custom_dash" v="0"/>
-              <prop k="width_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option name="name" type="QString" value=""/>
+                  <Option name="properties"/>
+                  <Option name="type" type="QString" value="collection"/>
+                </Option>
+              </data_defined_properties>
             </layer>
           </symbol>
         </symbols>
         <rotation/>
         <sizescale/>
       </renderer-v2>
-      <labeling type="simple"/>
       <customproperties/>
       <blendMode>0</blendMode>
       <featureBlendMode>0</featureBlendMode>
-      <layerTransparency>0</layerTransparency>
-      <annotationform></annotationform>
+      <layerOpacity>1</layerOpacity>
+      <fieldConfiguration>
+        <field name="FID">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="NAME">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="NUM_LANES">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
       <aliases>
-        <alias field="FID" index="0" name=""/>
-        <alias field="NAME" index="1" name=""/>
-        <alias field="NUM_LANES" index="2" name=""/>
+        <alias name="" index="0" field="FID"/>
+        <alias name="" index="1" field="NAME"/>
+        <alias name="" index="2" field="NUM_LANES"/>
       </aliases>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
+      <defaults>
+        <default applyOnUpdate="0" expression="" field="FID"/>
+        <default applyOnUpdate="0" expression="" field="NAME"/>
+        <default applyOnUpdate="0" expression="" field="NUM_LANES"/>
+      </defaults>
+      <constraints>
+        <constraint constraints="0" notnull_strength="0" exp_strength="0" unique_strength="0" field="FID"/>
+        <constraint constraints="0" notnull_strength="0" exp_strength="0" unique_strength="0" field="NAME"/>
+        <constraint constraints="0" notnull_strength="0" exp_strength="0" unique_strength="0" field="NUM_LANES"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint exp="" desc="" field="FID"/>
+        <constraint exp="" desc="" field="NAME"/>
+        <constraint exp="" desc="" field="NUM_LANES"/>
+      </constraintExpressions>
       <attributeactions/>
       <attributetableconfig sortExpression="" actionWidgetStyle="dropDown" sortOrder="0">
         <columns/>
@@ -806,7 +1085,7 @@
       <previewExpression></previewExpression>
       <mapTip></mapTip>
     </maplayer>
-    <maplayer minimumScale="0" geometry="Polygon" simplifyAlgorithm="0" simplifyDrawingTol="1" hasScaleBasedVisibilityFlag="0" type="vector" simplifyLocal="1" maximumScale="1e+08" simplifyMaxScale="1" simplifyDrawingHints="1" readOnly="0">
+    <maplayer simplifyMaxScale="1" refreshOnNotifyMessage="" simplifyDrawingHints="1" readOnly="0" simplifyLocal="1" maxScale="0" type="vector" autoRefreshEnabled="0" hasScaleBasedVisibilityFlag="0" minScale="1e+8" simplifyDrawingTol="1" autoRefreshTime="0" simplifyAlgorithm="0" refreshOnNotifyEnabled="0" geometry="Polygon">
       <extent>
         <xmin>-0.0014</xmin>
         <ymin>-0.0024</ymin>
@@ -831,60 +1110,105 @@
           <geographicflag>true</geographicflag>
         </spatialrefsys>
       </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+            <srsid>3452</srsid>
+            <srid>4326</srid>
+            <authid>EPSG:4326</authid>
+            <description>WGS 84</description>
+            <projectionacronym>longlat</projectionacronym>
+            <ellipsoidacronym>WGS84</ellipsoidacronym>
+            <geographicflag>true</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+        <links/>
+      </resourceMetadata>
       <provider encoding="UTF-8">ogr</provider>
       <vectorjoins/>
       <layerDependencies/>
-      <defaults>
-        <default field="FID" expression=""/>
-        <default field="NAME" expression=""/>
-      </defaults>
-      <constraints>
-        <constraint field="FID" exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0"/>
-        <constraint field="NAME" exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0"/>
-      </constraints>
-      <constraintExpressions>
-        <constraint exp="" field="FID" desc=""/>
-        <constraint exp="" field="NAME" desc=""/>
-      </constraintExpressions>
       <dataDependencies/>
       <expressionfields/>
-      <map-layer-style-manager current="">
-        <map-layer-style name=""/>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
       </map-layer-style-manager>
-      <edittypes/>
-      <renderer-v2 forceraster="0" type="singleSymbol" enableorderby="0" symbollevels="0">
+      <auxiliaryLayer/>
+      <renderer-v2 enableorderby="0" type="singleSymbol" symbollevels="0" forceraster="0">
         <symbols>
-          <symbol type="fill" alpha="1" name="0" clip_to_extent="1">
-            <layer class="SimpleFill" locked="0" enabled="1" pass="0">
-              <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
+          <symbol name="0" clip_to_extent="1" type="fill" alpha="1">
+            <layer enabled="1" locked="0" pass="0" class="SimpleFill">
+              <prop k="border_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
               <prop k="color" v="145,42,73,255"/>
               <prop k="joinstyle" v="bevel"/>
               <prop k="offset" v="0,0"/>
-              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
               <prop k="offset_unit" v="MM"/>
               <prop k="outline_color" v="0,0,0,255"/>
               <prop k="outline_style" v="solid"/>
               <prop k="outline_width" v="0.26"/>
               <prop k="outline_width_unit" v="MM"/>
               <prop k="style" v="solid"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option name="name" type="QString" value=""/>
+                  <Option name="properties"/>
+                  <Option name="type" type="QString" value="collection"/>
+                </Option>
+              </data_defined_properties>
             </layer>
           </symbol>
         </symbols>
         <rotation/>
         <sizescale/>
       </renderer-v2>
-      <labeling type="simple"/>
       <customproperties/>
       <blendMode>0</blendMode>
       <featureBlendMode>0</featureBlendMode>
-      <layerTransparency>0</layerTransparency>
-      <annotationform></annotationform>
+      <layerOpacity>1</layerOpacity>
+      <fieldConfiguration>
+        <field name="FID">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="NAME">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
       <aliases>
-        <alias field="FID" index="0" name=""/>
-        <alias field="NAME" index="1" name=""/>
+        <alias name="" index="0" field="FID"/>
+        <alias name="" index="1" field="NAME"/>
       </aliases>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
+      <defaults>
+        <default applyOnUpdate="0" expression="" field="FID"/>
+        <default applyOnUpdate="0" expression="" field="NAME"/>
+      </defaults>
+      <constraints>
+        <constraint constraints="0" notnull_strength="0" exp_strength="0" unique_strength="0" field="FID"/>
+        <constraint constraints="0" notnull_strength="0" exp_strength="0" unique_strength="0" field="NAME"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint exp="" desc="" field="FID"/>
+        <constraint exp="" desc="" field="NAME"/>
+      </constraintExpressions>
       <attributeactions/>
       <attributetableconfig sortExpression="" actionWidgetStyle="dropDown" sortOrder="0">
         <columns/>
@@ -905,7 +1229,7 @@
       <previewExpression></previewExpression>
       <mapTip></mapTip>
     </maplayer>
-    <maplayer minimumScale="0" geometry="Polygon" simplifyAlgorithm="0" simplifyDrawingTol="1" hasScaleBasedVisibilityFlag="0" type="vector" simplifyLocal="1" maximumScale="1e+08" simplifyMaxScale="1" simplifyDrawingHints="1" readOnly="0">
+    <maplayer simplifyMaxScale="1" refreshOnNotifyMessage="" simplifyDrawingHints="1" readOnly="0" simplifyLocal="1" maxScale="0" type="vector" autoRefreshEnabled="0" hasScaleBasedVisibilityFlag="0" minScale="1e+8" simplifyDrawingTol="1" autoRefreshTime="0" simplifyAlgorithm="0" refreshOnNotifyEnabled="0" geometry="Polygon">
       <extent>
         <xmin>0.0006</xmin>
         <ymin>-0.0018</ymin>
@@ -930,60 +1254,105 @@
           <geographicflag>true</geographicflag>
         </spatialrefsys>
       </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+            <srsid>3452</srsid>
+            <srid>4326</srid>
+            <authid>EPSG:4326</authid>
+            <description>WGS 84</description>
+            <projectionacronym>longlat</projectionacronym>
+            <ellipsoidacronym>WGS84</ellipsoidacronym>
+            <geographicflag>true</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+        <links/>
+      </resourceMetadata>
       <provider encoding="UTF-8">ogr</provider>
       <vectorjoins/>
       <layerDependencies/>
-      <defaults>
-        <default field="FID" expression=""/>
-        <default field="NAME" expression=""/>
-      </defaults>
-      <constraints>
-        <constraint field="FID" exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0"/>
-        <constraint field="NAME" exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0"/>
-      </constraints>
-      <constraintExpressions>
-        <constraint exp="" field="FID" desc=""/>
-        <constraint exp="" field="NAME" desc=""/>
-      </constraintExpressions>
       <dataDependencies/>
       <expressionfields/>
-      <map-layer-style-manager current="">
-        <map-layer-style name=""/>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
       </map-layer-style-manager>
-      <edittypes/>
-      <renderer-v2 forceraster="0" type="singleSymbol" enableorderby="0" symbollevels="0">
+      <auxiliaryLayer/>
+      <renderer-v2 enableorderby="0" type="singleSymbol" symbollevels="0" forceraster="0">
         <symbols>
-          <symbol type="fill" alpha="1" name="0" clip_to_extent="1">
-            <layer class="SimpleFill" locked="0" enabled="1" pass="0">
-              <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
+          <symbol name="0" clip_to_extent="1" type="fill" alpha="1">
+            <layer enabled="1" locked="0" pass="0" class="SimpleFill">
+              <prop k="border_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
               <prop k="color" v="103,153,95,255"/>
               <prop k="joinstyle" v="bevel"/>
               <prop k="offset" v="0,0"/>
-              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
               <prop k="offset_unit" v="MM"/>
               <prop k="outline_color" v="0,0,0,255"/>
               <prop k="outline_style" v="solid"/>
               <prop k="outline_width" v="0.26"/>
               <prop k="outline_width_unit" v="MM"/>
               <prop k="style" v="solid"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option name="name" type="QString" value=""/>
+                  <Option name="properties"/>
+                  <Option name="type" type="QString" value="collection"/>
+                </Option>
+              </data_defined_properties>
             </layer>
           </symbol>
         </symbols>
         <rotation/>
         <sizescale/>
       </renderer-v2>
-      <labeling type="simple"/>
       <customproperties/>
       <blendMode>0</blendMode>
       <featureBlendMode>0</featureBlendMode>
-      <layerTransparency>0</layerTransparency>
-      <annotationform></annotationform>
+      <layerOpacity>1</layerOpacity>
+      <fieldConfiguration>
+        <field name="FID">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="NAME">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
       <aliases>
-        <alias field="FID" index="0" name=""/>
-        <alias field="NAME" index="1" name=""/>
+        <alias name="" index="0" field="FID"/>
+        <alias name="" index="1" field="NAME"/>
       </aliases>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
+      <defaults>
+        <default applyOnUpdate="0" expression="" field="FID"/>
+        <default applyOnUpdate="0" expression="" field="NAME"/>
+      </defaults>
+      <constraints>
+        <constraint constraints="0" notnull_strength="0" exp_strength="0" unique_strength="0" field="FID"/>
+        <constraint constraints="0" notnull_strength="0" exp_strength="0" unique_strength="0" field="NAME"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint exp="" desc="" field="FID"/>
+        <constraint exp="" desc="" field="NAME"/>
+      </constraintExpressions>
       <attributeactions/>
       <attributetableconfig sortExpression="" actionWidgetStyle="dropDown" sortOrder="0">
         <columns/>
@@ -1004,7 +1373,7 @@
       <previewExpression></previewExpression>
       <mapTip></mapTip>
     </maplayer>
-    <maplayer minimumScale="0" geometry="Line" simplifyAlgorithm="0" simplifyDrawingTol="1" hasScaleBasedVisibilityFlag="0" type="vector" simplifyLocal="1" maximumScale="1e+08" simplifyMaxScale="1" simplifyDrawingHints="1" readOnly="0">
+    <maplayer simplifyMaxScale="1" refreshOnNotifyMessage="" simplifyDrawingHints="1" readOnly="0" simplifyLocal="1" maxScale="0" type="vector" autoRefreshEnabled="0" hasScaleBasedVisibilityFlag="0" minScale="1e+8" simplifyDrawingTol="1" autoRefreshTime="0" simplifyAlgorithm="0" refreshOnNotifyEnabled="0" geometry="Line">
       <extent>
         <xmin>-0.0042</xmin>
         <ymin>-0.0024</ymin>
@@ -1029,31 +1398,46 @@
           <geographicflag>true</geographicflag>
         </spatialrefsys>
       </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+            <srsid>3452</srsid>
+            <srid>4326</srid>
+            <authid>EPSG:4326</authid>
+            <description>WGS 84</description>
+            <projectionacronym>longlat</projectionacronym>
+            <ellipsoidacronym>WGS84</ellipsoidacronym>
+            <geographicflag>true</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+        <links/>
+      </resourceMetadata>
       <provider encoding="UTF-8">ogr</provider>
       <vectorjoins/>
       <layerDependencies/>
-      <defaults>
-        <default field="FID" expression=""/>
-      </defaults>
-      <constraints>
-        <constraint field="FID" exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0"/>
-      </constraints>
-      <constraintExpressions>
-        <constraint exp="" field="FID" desc=""/>
-      </constraintExpressions>
       <dataDependencies/>
       <expressionfields/>
-      <map-layer-style-manager current="">
-        <map-layer-style name=""/>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
       </map-layer-style-manager>
-      <edittypes/>
-      <renderer-v2 forceraster="0" type="singleSymbol" enableorderby="0" symbollevels="0">
+      <auxiliaryLayer/>
+      <renderer-v2 enableorderby="0" type="singleSymbol" symbollevels="0" forceraster="0">
         <symbols>
-          <symbol type="line" alpha="1" name="0" clip_to_extent="1">
-            <layer class="SimpleLine" locked="0" enabled="1" pass="0">
+          <symbol name="0" clip_to_extent="1" type="line" alpha="1">
+            <layer enabled="1" locked="0" pass="0" class="SimpleLine">
               <prop k="capstyle" v="square"/>
               <prop k="customdash" v="5;2"/>
-              <prop k="customdash_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="customdash_map_unit_scale" v="3x:0,0,0,0,0,0"/>
               <prop k="customdash_unit" v="MM"/>
               <prop k="draw_inside_polygon" v="0"/>
               <prop k="joinstyle" v="bevel"/>
@@ -1062,27 +1446,50 @@
               <prop k="line_width" v="0.26"/>
               <prop k="line_width_unit" v="MM"/>
               <prop k="offset" v="0"/>
-              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
               <prop k="offset_unit" v="MM"/>
               <prop k="use_custom_dash" v="0"/>
-              <prop k="width_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option name="name" type="QString" value=""/>
+                  <Option name="properties"/>
+                  <Option name="type" type="QString" value="collection"/>
+                </Option>
+              </data_defined_properties>
             </layer>
           </symbol>
         </symbols>
         <rotation/>
         <sizescale/>
       </renderer-v2>
-      <labeling type="simple"/>
       <customproperties/>
       <blendMode>0</blendMode>
       <featureBlendMode>0</featureBlendMode>
-      <layerTransparency>0</layerTransparency>
-      <annotationform></annotationform>
+      <layerOpacity>1</layerOpacity>
+      <fieldConfiguration>
+        <field name="FID">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
       <aliases>
-        <alias field="FID" index="0" name=""/>
+        <alias name="" index="0" field="FID"/>
       </aliases>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
+      <defaults>
+        <default applyOnUpdate="0" expression="" field="FID"/>
+      </defaults>
+      <constraints>
+        <constraint constraints="0" notnull_strength="0" exp_strength="0" unique_strength="0" field="FID"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint exp="" desc="" field="FID"/>
+      </constraintExpressions>
       <attributeactions/>
       <attributetableconfig sortExpression="" actionWidgetStyle="dropDown" sortOrder="0">
         <columns/>
@@ -1103,7 +1510,7 @@
       <previewExpression></previewExpression>
       <mapTip></mapTip>
     </maplayer>
-    <maplayer minimumScale="0" geometry="Polygon" simplifyAlgorithm="0" simplifyDrawingTol="1" hasScaleBasedVisibilityFlag="0" type="vector" simplifyLocal="1" maximumScale="1e+08" simplifyMaxScale="1" simplifyDrawingHints="1" readOnly="0">
+    <maplayer simplifyMaxScale="1" refreshOnNotifyMessage="" simplifyDrawingHints="1" readOnly="0" simplifyLocal="1" maxScale="0" type="vector" autoRefreshEnabled="0" hasScaleBasedVisibilityFlag="0" minScale="1e+8" simplifyDrawingTol="1" autoRefreshTime="0" simplifyAlgorithm="0" refreshOnNotifyEnabled="0" geometry="Polygon">
       <extent>
         <xmin>0.0014</xmin>
         <ymin>-0.0011</ymin>
@@ -1128,60 +1535,105 @@
           <geographicflag>true</geographicflag>
         </spatialrefsys>
       </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+            <srsid>3452</srsid>
+            <srid>4326</srid>
+            <authid>EPSG:4326</authid>
+            <description>WGS 84</description>
+            <projectionacronym>longlat</projectionacronym>
+            <ellipsoidacronym>WGS84</ellipsoidacronym>
+            <geographicflag>true</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+        <links/>
+      </resourceMetadata>
       <provider encoding="UTF-8">ogr</provider>
       <vectorjoins/>
       <layerDependencies/>
-      <defaults>
-        <default field="FID" expression=""/>
-        <default field="NAME" expression=""/>
-      </defaults>
-      <constraints>
-        <constraint field="FID" exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0"/>
-        <constraint field="NAME" exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0"/>
-      </constraints>
-      <constraintExpressions>
-        <constraint exp="" field="FID" desc=""/>
-        <constraint exp="" field="NAME" desc=""/>
-      </constraintExpressions>
       <dataDependencies/>
       <expressionfields/>
-      <map-layer-style-manager current="">
-        <map-layer-style name=""/>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
       </map-layer-style-manager>
-      <edittypes/>
-      <renderer-v2 forceraster="0" type="singleSymbol" enableorderby="0" symbollevels="0">
+      <auxiliaryLayer/>
+      <renderer-v2 enableorderby="0" type="singleSymbol" symbollevels="0" forceraster="0">
         <symbols>
-          <symbol type="fill" alpha="1" name="0" clip_to_extent="1">
-            <layer class="SimpleFill" locked="0" enabled="1" pass="0">
-              <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
+          <symbol name="0" clip_to_extent="1" type="fill" alpha="1">
+            <layer enabled="1" locked="0" pass="0" class="SimpleFill">
+              <prop k="border_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
               <prop k="color" v="175,74,225,255"/>
               <prop k="joinstyle" v="bevel"/>
               <prop k="offset" v="0,0"/>
-              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
               <prop k="offset_unit" v="MM"/>
               <prop k="outline_color" v="0,0,0,255"/>
               <prop k="outline_style" v="solid"/>
               <prop k="outline_width" v="0.26"/>
               <prop k="outline_width_unit" v="MM"/>
               <prop k="style" v="solid"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option name="name" type="QString" value=""/>
+                  <Option name="properties"/>
+                  <Option name="type" type="QString" value="collection"/>
+                </Option>
+              </data_defined_properties>
             </layer>
           </symbol>
         </symbols>
         <rotation/>
         <sizescale/>
       </renderer-v2>
-      <labeling type="simple"/>
       <customproperties/>
       <blendMode>0</blendMode>
       <featureBlendMode>0</featureBlendMode>
-      <layerTransparency>0</layerTransparency>
-      <annotationform></annotationform>
+      <layerOpacity>1</layerOpacity>
+      <fieldConfiguration>
+        <field name="FID">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="NAME">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
       <aliases>
-        <alias field="FID" index="0" name=""/>
-        <alias field="NAME" index="1" name=""/>
+        <alias name="" index="0" field="FID"/>
+        <alias name="" index="1" field="NAME"/>
       </aliases>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
+      <defaults>
+        <default applyOnUpdate="0" expression="" field="FID"/>
+        <default applyOnUpdate="0" expression="" field="NAME"/>
+      </defaults>
+      <constraints>
+        <constraint constraints="0" notnull_strength="0" exp_strength="0" unique_strength="0" field="FID"/>
+        <constraint constraints="0" notnull_strength="0" exp_strength="0" unique_strength="0" field="NAME"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint exp="" desc="" field="FID"/>
+        <constraint exp="" desc="" field="NAME"/>
+      </constraintExpressions>
       <attributeactions/>
       <attributetableconfig sortExpression="" actionWidgetStyle="dropDown" sortOrder="0">
         <columns/>
@@ -1202,7 +1654,7 @@
       <previewExpression></previewExpression>
       <mapTip></mapTip>
     </maplayer>
-    <maplayer minimumScale="0" geometry="Polygon" simplifyAlgorithm="0" simplifyDrawingTol="1" hasScaleBasedVisibilityFlag="0" type="vector" simplifyLocal="1" maximumScale="1e+08" simplifyMaxScale="1" simplifyDrawingHints="1" readOnly="0">
+    <maplayer simplifyMaxScale="1" refreshOnNotifyMessage="" simplifyDrawingHints="1" readOnly="0" simplifyLocal="1" maxScale="0" type="vector" autoRefreshEnabled="0" hasScaleBasedVisibilityFlag="0" minScale="1e+8" simplifyDrawingTol="1" autoRefreshTime="0" simplifyAlgorithm="0" refreshOnNotifyEnabled="0" geometry="Polygon">
       <extent>
         <xmin>-0.002</xmin>
         <ymin>0.0016</ymin>
@@ -1227,64 +1679,116 @@
           <geographicflag>true</geographicflag>
         </spatialrefsys>
       </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+            <srsid>3452</srsid>
+            <srid>4326</srid>
+            <authid>EPSG:4326</authid>
+            <description>WGS 84</description>
+            <projectionacronym>longlat</projectionacronym>
+            <ellipsoidacronym>WGS84</ellipsoidacronym>
+            <geographicflag>true</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+        <links/>
+      </resourceMetadata>
       <provider encoding="UTF-8">ogr</provider>
       <vectorjoins/>
       <layerDependencies/>
-      <defaults>
-        <default field="FID" expression=""/>
-        <default field="NAME" expression=""/>
-        <default field="TYPE" expression=""/>
-      </defaults>
-      <constraints>
-        <constraint field="FID" exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0"/>
-        <constraint field="NAME" exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0"/>
-        <constraint field="TYPE" exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0"/>
-      </constraints>
-      <constraintExpressions>
-        <constraint exp="" field="FID" desc=""/>
-        <constraint exp="" field="NAME" desc=""/>
-        <constraint exp="" field="TYPE" desc=""/>
-      </constraintExpressions>
       <dataDependencies/>
       <expressionfields/>
-      <map-layer-style-manager current="">
-        <map-layer-style name=""/>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
       </map-layer-style-manager>
-      <edittypes/>
-      <renderer-v2 forceraster="0" type="singleSymbol" enableorderby="0" symbollevels="0">
+      <auxiliaryLayer/>
+      <renderer-v2 enableorderby="0" type="singleSymbol" symbollevels="0" forceraster="0">
         <symbols>
-          <symbol type="fill" alpha="1" name="0" clip_to_extent="1">
-            <layer class="SimpleFill" locked="0" enabled="1" pass="0">
-              <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
+          <symbol name="0" clip_to_extent="1" type="fill" alpha="1">
+            <layer enabled="1" locked="0" pass="0" class="SimpleFill">
+              <prop k="border_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
               <prop k="color" v="184,242,96,255"/>
               <prop k="joinstyle" v="bevel"/>
               <prop k="offset" v="0,0"/>
-              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
               <prop k="offset_unit" v="MM"/>
               <prop k="outline_color" v="0,0,0,255"/>
               <prop k="outline_style" v="solid"/>
               <prop k="outline_width" v="0.26"/>
               <prop k="outline_width_unit" v="MM"/>
               <prop k="style" v="solid"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option name="name" type="QString" value=""/>
+                  <Option name="properties"/>
+                  <Option name="type" type="QString" value="collection"/>
+                </Option>
+              </data_defined_properties>
             </layer>
           </symbol>
         </symbols>
         <rotation/>
         <sizescale/>
       </renderer-v2>
-      <labeling type="simple"/>
       <customproperties/>
       <blendMode>0</blendMode>
       <featureBlendMode>0</featureBlendMode>
-      <layerTransparency>0</layerTransparency>
-      <annotationform></annotationform>
+      <layerOpacity>1</layerOpacity>
+      <fieldConfiguration>
+        <field name="FID">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="NAME">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="TYPE">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
       <aliases>
-        <alias field="FID" index="0" name=""/>
-        <alias field="NAME" index="1" name=""/>
-        <alias field="TYPE" index="2" name=""/>
+        <alias name="" index="0" field="FID"/>
+        <alias name="" index="1" field="NAME"/>
+        <alias name="" index="2" field="TYPE"/>
       </aliases>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
+      <defaults>
+        <default applyOnUpdate="0" expression="" field="FID"/>
+        <default applyOnUpdate="0" expression="" field="NAME"/>
+        <default applyOnUpdate="0" expression="" field="TYPE"/>
+      </defaults>
+      <constraints>
+        <constraint constraints="0" notnull_strength="0" exp_strength="0" unique_strength="0" field="FID"/>
+        <constraint constraints="0" notnull_strength="0" exp_strength="0" unique_strength="0" field="NAME"/>
+        <constraint constraints="0" notnull_strength="0" exp_strength="0" unique_strength="0" field="TYPE"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint exp="" desc="" field="FID"/>
+        <constraint exp="" desc="" field="NAME"/>
+        <constraint exp="" desc="" field="TYPE"/>
+      </constraintExpressions>
       <attributeactions/>
       <attributetableconfig sortExpression="" actionWidgetStyle="dropDown" sortOrder="0">
         <columns/>
@@ -1305,7 +1809,7 @@
       <previewExpression></previewExpression>
       <mapTip></mapTip>
     </maplayer>
-    <maplayer minimumScale="0" geometry="Line" simplifyAlgorithm="0" simplifyDrawingTol="1" hasScaleBasedVisibilityFlag="0" type="vector" simplifyLocal="1" maximumScale="1e+08" simplifyMaxScale="1" simplifyDrawingHints="1" readOnly="0">
+    <maplayer simplifyMaxScale="1" refreshOnNotifyMessage="" simplifyDrawingHints="1" readOnly="0" simplifyLocal="1" maxScale="0" type="vector" autoRefreshEnabled="0" hasScaleBasedVisibilityFlag="0" minScale="1e+8" simplifyDrawingTol="1" autoRefreshTime="0" simplifyAlgorithm="0" refreshOnNotifyEnabled="0" geometry="Line">
       <extent>
         <xmin>-0.0042</xmin>
         <ymin>-0.0024</ymin>
@@ -1330,34 +1834,46 @@
           <geographicflag>true</geographicflag>
         </spatialrefsys>
       </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+            <srsid>3452</srsid>
+            <srid>4326</srid>
+            <authid>EPSG:4326</authid>
+            <description>WGS 84</description>
+            <projectionacronym>longlat</projectionacronym>
+            <ellipsoidacronym>WGS84</ellipsoidacronym>
+            <geographicflag>true</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+        <links/>
+      </resourceMetadata>
       <provider encoding="UTF-8">ogr</provider>
       <vectorjoins/>
       <layerDependencies/>
-      <defaults>
-        <default field="FID" expression=""/>
-        <default field="NAME" expression=""/>
-      </defaults>
-      <constraints>
-        <constraint field="FID" exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0"/>
-        <constraint field="NAME" exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0"/>
-      </constraints>
-      <constraintExpressions>
-        <constraint exp="" field="FID" desc=""/>
-        <constraint exp="" field="NAME" desc=""/>
-      </constraintExpressions>
       <dataDependencies/>
       <expressionfields/>
-      <map-layer-style-manager current="">
-        <map-layer-style name=""/>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
       </map-layer-style-manager>
-      <edittypes/>
-      <renderer-v2 forceraster="0" type="singleSymbol" enableorderby="0" symbollevels="0">
+      <auxiliaryLayer/>
+      <renderer-v2 enableorderby="0" type="singleSymbol" symbollevels="0" forceraster="0">
         <symbols>
-          <symbol type="line" alpha="1" name="0" clip_to_extent="1">
-            <layer class="SimpleLine" locked="0" enabled="1" pass="0">
+          <symbol name="0" clip_to_extent="1" type="line" alpha="1">
+            <layer enabled="1" locked="0" pass="0" class="SimpleLine">
               <prop k="capstyle" v="square"/>
               <prop k="customdash" v="5;2"/>
-              <prop k="customdash_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="customdash_map_unit_scale" v="3x:0,0,0,0,0,0"/>
               <prop k="customdash_unit" v="MM"/>
               <prop k="draw_inside_polygon" v="0"/>
               <prop k="joinstyle" v="bevel"/>
@@ -1366,28 +1882,61 @@
               <prop k="line_width" v="0.26"/>
               <prop k="line_width_unit" v="MM"/>
               <prop k="offset" v="0"/>
-              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
               <prop k="offset_unit" v="MM"/>
               <prop k="use_custom_dash" v="0"/>
-              <prop k="width_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option name="name" type="QString" value=""/>
+                  <Option name="properties"/>
+                  <Option name="type" type="QString" value="collection"/>
+                </Option>
+              </data_defined_properties>
             </layer>
           </symbol>
         </symbols>
         <rotation/>
         <sizescale/>
       </renderer-v2>
-      <labeling type="simple"/>
       <customproperties/>
       <blendMode>0</blendMode>
       <featureBlendMode>0</featureBlendMode>
-      <layerTransparency>0</layerTransparency>
-      <annotationform></annotationform>
+      <layerOpacity>1</layerOpacity>
+      <fieldConfiguration>
+        <field name="FID">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="NAME">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
       <aliases>
-        <alias field="FID" index="0" name=""/>
-        <alias field="NAME" index="1" name=""/>
+        <alias name="" index="0" field="FID"/>
+        <alias name="" index="1" field="NAME"/>
       </aliases>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
+      <defaults>
+        <default applyOnUpdate="0" expression="" field="FID"/>
+        <default applyOnUpdate="0" expression="" field="NAME"/>
+      </defaults>
+      <constraints>
+        <constraint constraints="0" notnull_strength="0" exp_strength="0" unique_strength="0" field="FID"/>
+        <constraint constraints="0" notnull_strength="0" exp_strength="0" unique_strength="0" field="NAME"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint exp="" desc="" field="FID"/>
+        <constraint exp="" desc="" field="NAME"/>
+      </constraintExpressions>
       <attributeactions/>
       <attributetableconfig sortExpression="" actionWidgetStyle="dropDown" sortOrder="0">
         <columns/>
@@ -1408,7 +1957,7 @@
       <previewExpression></previewExpression>
       <mapTip></mapTip>
     </maplayer>
-    <maplayer minimumScale="0" geometry="Line" simplifyAlgorithm="0" simplifyDrawingTol="1" hasScaleBasedVisibilityFlag="0" type="vector" simplifyLocal="1" maximumScale="1e+08" simplifyMaxScale="1" simplifyDrawingHints="1" readOnly="0">
+    <maplayer simplifyMaxScale="1" refreshOnNotifyMessage="" simplifyDrawingHints="1" readOnly="0" simplifyLocal="1" maxScale="0" type="vector" autoRefreshEnabled="0" hasScaleBasedVisibilityFlag="0" minScale="1e+8" simplifyDrawingTol="1" autoRefreshTime="0" simplifyAlgorithm="0" refreshOnNotifyEnabled="0" geometry="Line">
       <extent>
         <xmin>-0.0004</xmin>
         <ymin>-0.0024</ymin>
@@ -1433,34 +1982,46 @@
           <geographicflag>true</geographicflag>
         </spatialrefsys>
       </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+            <srsid>3452</srsid>
+            <srid>4326</srid>
+            <authid>EPSG:4326</authid>
+            <description>WGS 84</description>
+            <projectionacronym>longlat</projectionacronym>
+            <ellipsoidacronym>WGS84</ellipsoidacronym>
+            <geographicflag>true</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+        <links/>
+      </resourceMetadata>
       <provider encoding="UTF-8">ogr</provider>
       <vectorjoins/>
       <layerDependencies/>
-      <defaults>
-        <default field="FID" expression=""/>
-        <default field="NAME" expression=""/>
-      </defaults>
-      <constraints>
-        <constraint field="FID" exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0"/>
-        <constraint field="NAME" exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0"/>
-      </constraints>
-      <constraintExpressions>
-        <constraint exp="" field="FID" desc=""/>
-        <constraint exp="" field="NAME" desc=""/>
-      </constraintExpressions>
       <dataDependencies/>
       <expressionfields/>
-      <map-layer-style-manager current="">
-        <map-layer-style name=""/>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
       </map-layer-style-manager>
-      <edittypes/>
-      <renderer-v2 forceraster="0" type="singleSymbol" enableorderby="0" symbollevels="0">
+      <auxiliaryLayer/>
+      <renderer-v2 enableorderby="0" type="singleSymbol" symbollevels="0" forceraster="0">
         <symbols>
-          <symbol type="line" alpha="1" name="0" clip_to_extent="1">
-            <layer class="SimpleLine" locked="0" enabled="1" pass="0">
+          <symbol name="0" clip_to_extent="1" type="line" alpha="1">
+            <layer enabled="1" locked="0" pass="0" class="SimpleLine">
               <prop k="capstyle" v="square"/>
               <prop k="customdash" v="5;2"/>
-              <prop k="customdash_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="customdash_map_unit_scale" v="3x:0,0,0,0,0,0"/>
               <prop k="customdash_unit" v="MM"/>
               <prop k="draw_inside_polygon" v="0"/>
               <prop k="joinstyle" v="bevel"/>
@@ -1469,28 +2030,61 @@
               <prop k="line_width" v="0.26"/>
               <prop k="line_width_unit" v="MM"/>
               <prop k="offset" v="0"/>
-              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
               <prop k="offset_unit" v="MM"/>
               <prop k="use_custom_dash" v="0"/>
-              <prop k="width_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option name="name" type="QString" value=""/>
+                  <Option name="properties"/>
+                  <Option name="type" type="QString" value="collection"/>
+                </Option>
+              </data_defined_properties>
             </layer>
           </symbol>
         </symbols>
         <rotation/>
         <sizescale/>
       </renderer-v2>
-      <labeling type="simple"/>
       <customproperties/>
       <blendMode>0</blendMode>
       <featureBlendMode>0</featureBlendMode>
-      <layerTransparency>0</layerTransparency>
-      <annotationform></annotationform>
+      <layerOpacity>1</layerOpacity>
+      <fieldConfiguration>
+        <field name="FID">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="NAME">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
       <aliases>
-        <alias field="FID" index="0" name=""/>
-        <alias field="NAME" index="1" name=""/>
+        <alias name="" index="0" field="FID"/>
+        <alias name="" index="1" field="NAME"/>
       </aliases>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
+      <defaults>
+        <default applyOnUpdate="0" expression="" field="FID"/>
+        <default applyOnUpdate="0" expression="" field="NAME"/>
+      </defaults>
+      <constraints>
+        <constraint constraints="0" notnull_strength="0" exp_strength="0" unique_strength="0" field="FID"/>
+        <constraint constraints="0" notnull_strength="0" exp_strength="0" unique_strength="0" field="NAME"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint exp="" desc="" field="FID"/>
+        <constraint exp="" desc="" field="NAME"/>
+      </constraintExpressions>
       <attributeactions>
         <defaultAction key="Canvas" value="{00000000-0000-0000-0000-000000000000}"/>
       </attributeactions>
@@ -1513,7 +2107,7 @@
       <previewExpression></previewExpression>
       <mapTip></mapTip>
     </maplayer>
-    <maplayer minimumScale="0" geometry="Polygon" simplifyAlgorithm="0" simplifyDrawingTol="1" hasScaleBasedVisibilityFlag="0" type="vector" simplifyLocal="1" maximumScale="1e+08" simplifyMaxScale="1" simplifyDrawingHints="1" readOnly="0">
+    <maplayer simplifyMaxScale="1" refreshOnNotifyMessage="" simplifyDrawingHints="1" readOnly="0" simplifyLocal="1" maxScale="0" type="vector" autoRefreshEnabled="0" hasScaleBasedVisibilityFlag="0" minScale="1e+8" simplifyDrawingTol="1" autoRefreshTime="0" simplifyAlgorithm="0" refreshOnNotifyEnabled="0" geometry="Polygon">
       <extent>
         <xmin>0.0006</xmin>
         <ymin>-0.0018</ymin>
@@ -1538,48 +2132,78 @@
           <geographicflag>true</geographicflag>
         </spatialrefsys>
       </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+            <srsid>3452</srsid>
+            <srid>4326</srid>
+            <authid>EPSG:4326</authid>
+            <description>WGS 84</description>
+            <projectionacronym>longlat</projectionacronym>
+            <ellipsoidacronym>WGS84</ellipsoidacronym>
+            <geographicflag>true</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+        <links/>
+      </resourceMetadata>
       <provider encoding="UTF-8">ogr</provider>
       <vectorjoins/>
       <layerDependencies/>
-      <defaults/>
-      <constraints/>
-      <constraintExpressions/>
       <dataDependencies/>
       <expressionfields/>
-      <map-layer-style-manager current="">
-        <map-layer-style name=""/>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
       </map-layer-style-manager>
-      <edittypes/>
-      <renderer-v2 forceraster="0" type="singleSymbol" enableorderby="0" symbollevels="0">
+      <auxiliaryLayer/>
+      <renderer-v2 enableorderby="0" type="singleSymbol" symbollevels="0" forceraster="0">
         <symbols>
-          <symbol type="fill" alpha="1" name="0" clip_to_extent="1">
-            <layer class="SimpleFill" locked="0" enabled="1" pass="0">
-              <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
+          <symbol name="0" clip_to_extent="1" type="fill" alpha="1">
+            <layer enabled="1" locked="0" pass="0" class="SimpleFill">
+              <prop k="border_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
               <prop k="color" v="112,153,200,255"/>
               <prop k="joinstyle" v="bevel"/>
               <prop k="offset" v="0,0"/>
-              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
               <prop k="offset_unit" v="MM"/>
               <prop k="outline_color" v="0,0,0,255"/>
               <prop k="outline_style" v="solid"/>
               <prop k="outline_width" v="0.26"/>
               <prop k="outline_width_unit" v="MM"/>
               <prop k="style" v="solid"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option name="name" type="QString" value=""/>
+                  <Option name="properties"/>
+                  <Option name="type" type="QString" value="collection"/>
+                </Option>
+              </data_defined_properties>
             </layer>
           </symbol>
         </symbols>
         <rotation/>
         <sizescale/>
       </renderer-v2>
-      <labeling type="simple"/>
       <customproperties/>
       <blendMode>0</blendMode>
       <featureBlendMode>0</featureBlendMode>
-      <layerTransparency>0</layerTransparency>
-      <annotationform></annotationform>
+      <layerOpacity>1</layerOpacity>
+      <fieldConfiguration/>
       <aliases/>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
+      <defaults/>
+      <constraints/>
+      <constraintExpressions/>
       <attributeactions/>
       <attributetableconfig sortExpression="" actionWidgetStyle="dropDown" sortOrder="0">
         <columns/>
@@ -1601,83 +2225,103 @@
       <mapTip></mapTip>
     </maplayer>
   </projectlayers>
+  <layerorder>
+    <layer id="Streams20170301162236949"/>
+    <layer id="RoadSegments20170301162236975"/>
+    <layer id="Ponds20170301162236982"/>
+    <layer id="NamedPlaces20170301162236984"/>
+    <layer id="MapNeatline20170301162236991"/>
+    <layer id="lakesWithElevation20170301162236998"/>
+    <layer id="Lakes20170301162237004"/>
+    <layer id="Forests20170301162237014"/>
+    <layer id="DividedRoutes20170301162237015"/>
+    <layer id="Buildings20170301162237024"/>
+    <layer id="BuildingCenters20170301162237032"/>
+    <layer id="Bridges20170301162237035"/>
+    <layer id="BasicPolygons20170301162237037"/>
+    <layer id="Autos20170301162237048"/>
+  </layerorder>
   <properties>
+    <WMSContactPhone type="QString">XX.XX.XX.XX.XX</WMSContactPhone>
+    <WMSContactPosition type="QString"></WMSContactPosition>
+    <WMSSegmentizeFeatureInfoGeometry type="bool">false</WMSSegmentizeFeatureInfoGeometry>
+    <Gui>
+      <SelectionColorGreenPart type="int">255</SelectionColorGreenPart>
+      <SelectionColorRedPart type="int">255</SelectionColorRedPart>
+      <SelectionColorBluePart type="int">0</SelectionColorBluePart>
+      <SelectionColorAlphaPart type="int">255</SelectionColorAlphaPart>
+      <CanvasColorGreenPart type="int">255</CanvasColorGreenPart>
+      <CanvasColorBluePart type="int">255</CanvasColorBluePart>
+      <CanvasColorRedPart type="int">255</CanvasColorRedPart>
+    </Gui>
+    <WMSKeywordList type="QStringList">
+      <value></value>
+    </WMSKeywordList>
+    <WMSFees type="QString">conditions unknown</WMSFees>
+    <SpatialRefSys>
+      <ProjectCRSProj4String type="QString"></ProjectCRSProj4String>
+      <ProjectCRSID type="int">0</ProjectCRSID>
+      <ProjectionsEnabled type="int">0</ProjectionsEnabled>
+      <ProjectCrs type="QString"></ProjectCrs>
+    </SpatialRefSys>
+    <Measurement>
+      <DistanceUnits type="QString">meters</DistanceUnits>
+      <AreaUnits type="QString">m2</AreaUnits>
+    </Measurement>
+    <PositionPrecision>
+      <DecimalPlaces type="int">2</DecimalPlaces>
+      <Automatic type="bool">true</Automatic>
+      <DegreeFormat type="QString">MU</DegreeFormat>
+    </PositionPrecision>
     <Legend>
       <filterByMap type="bool">false</filterByMap>
     </Legend>
-    <DefaultStyles>
-      <RandomColors type="bool">true</RandomColors>
-      <AlphaInt type="int">255</AlphaInt>
-      <ColorRamp type="QString"></ColorRamp>
-      <Marker type="QString"></Marker>
-      <Line type="QString"></Line>
-      <Fill type="QString"></Fill>
-    </DefaultStyles>
-    <WMSFees type="QString">conditions unknown</WMSFees>
+    <WMSContactOrganization type="QString"></WMSContactOrganization>
+    <WMSOnlineResource type="QString"></WMSOnlineResource>
+    <WCSLayers type="QStringList"/>
+    <WMSUrl type="QString"></WMSUrl>
+    <WMSUseLayerIDs type="bool">false</WMSUseLayerIDs>
+    <WMSRequestDefinedDataSources type="bool">false</WMSRequestDefinedDataSources>
+    <WMSAddWktGeometry type="bool">false</WMSAddWktGeometry>
     <WFSTLayers>
       <Update type="QStringList"/>
       <Insert type="QStringList"/>
       <Delete type="QStringList"/>
     </WFSTLayers>
     <WMSServiceCapabilities type="bool">true</WMSServiceCapabilities>
-    <WMSServiceTitle type="QString"></WMSServiceTitle>
-    <WMSUseLayerIDs type="bool">false</WMSUseLayerIDs>
-    <WMSContactPosition type="QString"></WMSContactPosition>
-    <WMSRequestDefinedDataSources type="bool">false</WMSRequestDefinedDataSources>
-    <WMSSegmentizeFeatureInfoGeometry type="bool">false</WMSSegmentizeFeatureInfoGeometry>
-    <PositionPrecision>
-      <Automatic type="bool">true</Automatic>
-      <DecimalPlaces type="int">2</DecimalPlaces>
-      <DegreeFormat type="QString">MU</DegreeFormat>
-    </PositionPrecision>
-    <WMSUrl type="QString"></WMSUrl>
-    <WMSPrecision type="QString">8</WMSPrecision>
+    <WMSImageQuality type="int">90</WMSImageQuality>
     <WFSUrl type="QString"></WFSUrl>
-    <Measurement>
-      <AreaUnits type="QString">m2</AreaUnits>
-      <DistanceUnits type="QString">meters</DistanceUnits>
-    </Measurement>
-    <WMSKeywordList type="QStringList">
-      <value></value>
-    </WMSKeywordList>
-    <WMSAccessConstraints type="QString">None</WMSAccessConstraints>
-    <Identify>
-      <disabledLayers type="QStringList"/>
-    </Identify>
     <Measure>
       <Ellipsoid type="QString">NONE</Ellipsoid>
     </Measure>
-    <WMSContactMail type="QString"></WMSContactMail>
-    <WMSServiceAbstract type="QString"></WMSServiceAbstract>
+    <WFSLayers type="QStringList"/>
+    <DefaultStyles>
+      <AlphaInt type="int">255</AlphaInt>
+      <Fill type="QString"></Fill>
+      <Line type="QString"></Line>
+      <ColorRamp type="QString"></ColorRamp>
+      <RandomColors type="bool">true</RandomColors>
+      <Opacity type="double">1</Opacity>
+      <Marker type="QString"></Marker>
+    </DefaultStyles>
+    <Identify>
+      <disabledLayers type="QStringList"/>
+    </Identify>
+    <WCSUrl type="QString"></WCSUrl>
     <WMSContactPerson type="QString"></WMSContactPerson>
-    <WMSContactPhone type="QString"></WMSContactPhone>
     <Macros>
       <pythonCode type="QString"></pythonCode>
     </Macros>
-    <WMSAddWktGeometry type="bool">false</WMSAddWktGeometry>
-    <WMSOnlineResource type="QString"></WMSOnlineResource>
-    <Gui>
-      <SelectionColorGreenPart type="int">255</SelectionColorGreenPart>
-      <SelectionColorAlphaPart type="int">255</SelectionColorAlphaPart>
-      <CanvasColorBluePart type="int">255</CanvasColorBluePart>
-      <CanvasColorRedPart type="int">255</CanvasColorRedPart>
-      <SelectionColorRedPart type="int">255</SelectionColorRedPart>
-      <SelectionColorBluePart type="int">0</SelectionColorBluePart>
-      <CanvasColorGreenPart type="int">255</CanvasColorGreenPart>
-    </Gui>
-    <WCSUrl type="QString"></WCSUrl>
-    <WCSLayers type="QStringList"/>
-    <WFSLayers type="QStringList"/>
-    <WMSContactOrganization type="QString"></WMSContactOrganization>
-    <WMSImageQuality type="int">90</WMSImageQuality>
     <Paths>
       <Absolute type="bool">false</Absolute>
     </Paths>
-    <SpatialRefSys>
-      <ProjectCrs type="QString">EPSG:4326</ProjectCrs>
-      <ProjectCRSID type="int">3452</ProjectCRSID>
-      <ProjectCRSProj4String type="QString">+proj=longlat +datum=WGS84 +no_defs</ProjectCRSProj4String>
-    </SpatialRefSys>
+    <WMSServiceTitle type="QString"></WMSServiceTitle>
+    <WMSContactMail type="QString"></WMSContactMail>
+    <WMSServiceAbstract type="QString"></WMSServiceAbstract>
+    <WMSPrecision type="QString">8</WMSPrecision>
+    <WMSAccessConstraints type="QString">None</WMSAccessConstraints>
   </properties>
   <visibility-presets/>
+  <Annotations/>
+  <Layouts/>
 </qgis>
