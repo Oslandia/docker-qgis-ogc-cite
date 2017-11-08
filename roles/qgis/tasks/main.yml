@@ -117,3 +117,8 @@
   copy:
     src: teamengine_wms_130.qgs
     dest: /home/{{ user }}/teamengine_wms_130.qgs
+
+- name: copy utility script to replace DOCKERIP in qgs projects
+  copy:
+    src: setdockerip.sh
+    dest: /home/{{ user }}/setdockerip.sh
