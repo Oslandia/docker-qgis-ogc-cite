@@ -103,6 +103,11 @@
   become: yes
   when: qgis_ets_projects
 
+- name: unarchive wms metadata directory in www
+  command: cp -r /home/user/data-wms-1.3.0/metadata /var/www/html/ogccite/
+  become: yes
+  when: qgis_ets_projects
+
 - name: prepare qgis project with ets data
   template:
     src: '{{ item }}'
